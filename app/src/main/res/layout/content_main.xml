@@ -97,7 +97,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="D-110"
+                android:text="D-100"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp" />
 
