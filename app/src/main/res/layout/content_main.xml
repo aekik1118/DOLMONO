@@ -97,7 +97,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="D-100"
+                android:text="lol go?"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp" />
 
