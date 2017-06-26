@@ -13,6 +13,8 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    android.app.FragmentManager manager = getFragmentManager();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        manager.beginTransaction().replace(R.id.content_main,new Main()).commit();
+
+
     }
 
     @Override
@@ -69,13 +75,19 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+
+
+        if (id == R.id.nav_geayo_main_layout) {
+            manager.beginTransaction().replace(R.id.content_main,new geayoMain()).commit();
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_cheerup_main_layout) {
+            manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_jongmok_main_layout) {
+            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).commit();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_main_layout) {
+            manager.beginTransaction().replace(R.id.content_main,new Main()).commit();
 
         } else if (id == R.id.nav_share) {
 
