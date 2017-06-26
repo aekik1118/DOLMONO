@@ -15,10 +15,22 @@ public class Main extends Fragment{
     View v;
 
 
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.main_layout, container, false);
+
+
+
+
+
+
+
+
+
+
+
         return v;
     }
 
