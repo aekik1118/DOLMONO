@@ -108,6 +108,14 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).commit();
         }else if(index == 5){
             manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).commit();
+        }else if(index == 9){
+            manager.beginTransaction().replace(R.id.content_main,new gaeyo()).commit();
+        }else if(index == 3){
+            manager.beginTransaction().replace(R.id.content_main,new way()).commit();
+        }else if(index == 10){
+            manager.beginTransaction().replace(R.id.content_main,new symbol()).commit();
+        }else if(index == 0){
+            manager.beginTransaction().replace(R.id.content_main,new introduce()).commit();
         }
 
     }
