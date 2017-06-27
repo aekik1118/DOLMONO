@@ -1,12 +1,14 @@
 package org.techtown.dolmonoproto;
 
 import android.app.Fragment;
+import android.icu.util.Calendar;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * Created by aekik on 2017-06-26.
@@ -54,14 +56,17 @@ public class Main extends Fragment{
             }
         });
 
+        Calendar dDay = Calendar.getInstance();
+        dDay.set(2017,9,20);
+        Calendar today = Calendar.getInstance();
+
+        long day1 = (long)(dDay.getTimeInMillis()/(1000*60*60*24));
+        long day2 = (long)(today.getTimeInMillis()/(1000*60*60*24));
 
 
 
-
-
-
-
-
+        TextView textView2 = (TextView)v.findViewById(R.id.textView2);
+        textView2.setText(String.format("D-%d",(int)(day1-day2)));
 
 
 
