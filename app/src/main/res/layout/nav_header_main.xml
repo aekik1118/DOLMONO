@@ -17,9 +17,9 @@
         android:id="@+id/imageView"
         android:layout_width="154dp"
         android:layout_height="97dp"
+        android:layout_weight="0.70"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/emblem"
-        android:layout_weight="0.70" />
+        app:srcCompat="@drawable/em4" />
 
     <TextView
         android:layout_width="match_parent"

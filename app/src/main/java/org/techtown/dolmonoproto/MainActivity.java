@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity
 
     android.app.FragmentManager manager = getFragmentManager();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,16 +79,16 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.nav_geayo_main_layout) {
-            manager.beginTransaction().replace(R.id.content_main,new geayoMain()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new geayoMain()).addToBackStack(null).commit();
             // Handle the camera action
         } else if (id == R.id.nav_cheerup_main_layout) {
-            manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).addToBackStack(null).commit();
 
         } else if (id == R.id.nav_jongmok_main_layout) {
-            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
 
         } else if (id == R.id.nav_main_layout) {
-            manager.beginTransaction().replace(R.id.content_main,new Main()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new Main()).addToBackStack(null).commit();
 
         } else if (id == R.id.nav_share) {
 
@@ -103,19 +104,19 @@ public class MainActivity extends AppCompatActivity
 
     public void onFragmentChanged(int index){
         if(index == 2){
-            manager.beginTransaction().replace(R.id.content_main,new geayoMain()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new geayoMain()).addToBackStack(null).commit();
         }else if(index == 4){
-            manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).addToBackStack(null).commit();
         }else if(index == 5){
-            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
         }else if(index == 9){
-            manager.beginTransaction().replace(R.id.content_main,new gaeyo()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new gaeyo()).addToBackStack(null).commit();
         }else if(index == 3){
-            manager.beginTransaction().replace(R.id.content_main,new way()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new way()).addToBackStack(null).commit();
         }else if(index == 10){
-            manager.beginTransaction().replace(R.id.content_main,new symbol()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new symbol()).addToBackStack(null).commit();
         }else if(index == 0){
-            manager.beginTransaction().replace(R.id.content_main,new introduce()).commit();
+            manager.beginTransaction().replace(R.id.content_main,new introduce()).addToBackStack(null).commit();
         }
 
     }
