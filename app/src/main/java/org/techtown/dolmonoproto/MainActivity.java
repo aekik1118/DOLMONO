@@ -99,4 +99,17 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+    public void onFragmentChanged(int index){
+        if(index == 2){
+            manager.beginTransaction().replace(R.id.content_main,new geayoMain()).commit();
+        }else if(index == 4){
+            manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).commit();
+        }else if(index == 5){
+            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).commit();
+        }
+
+    }
+
 }
