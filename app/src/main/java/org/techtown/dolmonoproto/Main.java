@@ -64,10 +64,23 @@ public class Main extends Fragment{
         long day1 = (long)(dDay.getTimeInMillis()/(1000*60*60*24));
         long day2 = (long)(today.getTimeInMillis()/(1000*60*60*24));
 
-
+        long ddday = day1 - day2;
 
         TextView textView2 = (TextView)v.findViewById(R.id.textView2);
-        textView2.setText(String.format("D-%d",(int)(day1-day2)));
+
+        if(ddday < 0){
+            textView2.setText(String.format("D+%d",(int)(-ddday)));
+        }else if(ddday == 0){
+            textView2.setText(String.format("D-DAY"));
+        }else{
+            textView2.setText(String.format("D-%d",(int)(ddday)));
+        }
+
+
+
+
+
+
 
 
 

@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     android.app.FragmentManager manager = getFragmentManager();
+    private BackPressCloseHandler backPressCloseHandler;
 
 
     @Override
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        backPressCloseHandler = new BackPressCloseHandler(this);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -40,11 +42,20 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
+        int backStackEntryCount = manager.getBackStackEntryCount();
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            if(backStackEntryCount == 0)
+            {
+                backPressCloseHandler.onBackPressed();
+            }
+            else
+            {
+                super.onBackPressed();
+            }
         }
     }
 
@@ -79,16 +90,20 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.nav_geayo_main_layout) {
+            manager.popBackStackImmediate();
             manager.beginTransaction().replace(R.id.content_main,new geayoMain()).addToBackStack(null).commit();
             // Handle the camera action
         } else if (id == R.id.nav_cheerup_main_layout) {
+            manager.popBackStackImmediate();
             manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).addToBackStack(null).commit();
 
         } else if (id == R.id.nav_jongmok_main_layout) {
+            manager.popBackStackImmediate();
             manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
 
         } else if (id == R.id.nav_main_layout) {
-            manager.beginTransaction().replace(R.id.content_main,new Main()).addToBackStack(null).commit();
+            manager.popBackStackImmediate();
+            manager.beginTransaction().replace(R.id.content_main,new Main()).commit();
 
         } else if (id == R.id.nav_share) {
 
