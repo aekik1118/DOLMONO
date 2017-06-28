@@ -84,7 +84,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/holo_orange_dark"
-                android:text="대회 개요" />
+                android:text="대회\n개요"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <ImageView
                 android:id="@+id/imageView3"
