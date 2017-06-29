@@ -3,7 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="3"
+    android:layout_margin="0dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:elevation="0dp"
+
+    android:padding="0dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -11,15 +21,18 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:orientation="vertical"
-            android:weightSum="3">
+            android:weightSum="4">
 
             <ImageView
                 android:id="@+id/imageView19"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
+
+
                 app:srcCompat="@drawable/emblem1" />
 
             <ImageView
@@ -27,14 +40,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
+
+
                 app:srcCompat="@drawable/mascot" />
 
             <ImageView
-                android:id="@+id/imageView21"
+                android:id="@+id/imageView22"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                app:srcCompat="@drawable/poster"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/poster_a" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/poster_b" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

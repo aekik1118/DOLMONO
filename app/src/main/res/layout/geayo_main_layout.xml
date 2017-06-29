@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="0dp"
@@ -44,23 +45,39 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_blue_light"
-                android:text="대회개요" />
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="대회\n개요"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:typeface="monospace" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/imageView2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/life" />
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sun2" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_red_light"
-                android:text="찾아오시는길" />
+                android:background="@drawable/buttonshape2"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="인사말"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:typeface="monospace" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -83,24 +100,39 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_green_light"
-                android:text="상징물" />
+                android:background="@drawable/buttonshape3"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="상징물"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:typeface="monospace" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/sun2" />
+                app:srcCompat="@drawable/life" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_orange_light"
-                android:text="인사말" />
+                android:background="@drawable/buttonshape4"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="찾아\n오시는\n길"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:typeface="monospace" />
+
         </LinearLayout>
 
     </LinearLayout>

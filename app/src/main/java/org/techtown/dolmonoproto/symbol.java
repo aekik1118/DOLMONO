@@ -19,6 +19,13 @@ public class symbol extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.symbol_layout, container, false);
+
+
+
+
+
+
+
         return v;
     }
 
