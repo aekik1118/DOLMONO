@@ -83,10 +83,15 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_orange_dark"
+                android:background="@drawable/buttonshape3"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
                 android:text="대회\n개요"
-                android:textColor="@android:color/black"
-                android:textSize="30sp" />
+                android:shadowColor="#000000"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -142,8 +147,15 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_green_light"
-                android:text="응원 하기" />
+                android:background="@drawable/buttonshape2"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="응원\n하기"
+                android:textColor="#FFFFFF"
+                android:typeface="monospace"
+                android:textSize="20sp"/>
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -158,8 +170,15 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@android:color/holo_purple"
-                android:text="경기 종목" />
+                android:background="@drawable/buttonshape4"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:textColor="#FFFFFF"
+                android:text="경기\n종목"
+                android:textSize="20sp"
+                android:typeface="monospace"/>
 
         </LinearLayout>
 
