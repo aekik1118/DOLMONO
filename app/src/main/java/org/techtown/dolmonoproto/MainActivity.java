@@ -132,6 +132,8 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction().replace(R.id.content_main,new symbol()).addToBackStack(null).commit();
         }else if(index == 0){
             manager.beginTransaction().replace(R.id.content_main,new introduce()).addToBackStack(null).commit();
+        }else if(index == 53){
+            manager.beginTransaction().replace(R.id.content_main,new jongmok()).addToBackStack(null).commit();
         }
 
     }
