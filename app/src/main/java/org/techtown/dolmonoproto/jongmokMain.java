@@ -27,11 +27,10 @@ public class jongmokMain extends Fragment{
             @Override
             public void onClick(View v) {
                 MainActivity activity = (MainActivity) getActivity();
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201702031056574752bkUAT.jpg";
                 activity.onFragmentChanged(53);
             }
         });
-
-
 
 
         return v;

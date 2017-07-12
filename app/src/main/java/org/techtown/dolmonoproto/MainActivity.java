@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity
 
     android.app.FragmentManager manager = getFragmentManager();
     private BackPressCloseHandler backPressCloseHandler;
+    public static String baseImageURL;
 
 
     @Override

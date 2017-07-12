@@ -33,9 +33,14 @@ import android.os.AsyncTask;
 
 public class jongmok extends Fragment{
     View v;
-    public static final String baseImageURL = "http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115418704TcnTJX.jpg";
+    MainActivity activity = (MainActivity) getActivity();
+    public static String baseImageURL;
+
+
+
     ImageView iv;
     Bitmap bm;
+    TextView tv;
     private ProgressDialog progressDialog;
 
 
@@ -46,6 +51,9 @@ public class jongmok extends Fragment{
         v = inflater.inflate(R.layout.jongmok_layout, container, false);
 
         iv = (ImageView) v.findViewById(R.id.imageView24);
+        tv = (TextView)v.findViewById(R.id.textView20);
+
+        baseImageURL = activity.baseImageURL;
 
         Thread mThread = new Thread()
         {
@@ -62,9 +70,6 @@ public class jongmok extends Fragment{
 
                     InputStream is = conn.getInputStream();
                     bm = BitmapFactory.decodeStream(is);
-
-
-
 
                 }catch(IOException ex)
                 {
