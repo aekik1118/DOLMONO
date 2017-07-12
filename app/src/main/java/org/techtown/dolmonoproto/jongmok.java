@@ -36,14 +36,10 @@ public class jongmok extends Fragment{
     MainActivity activity = (MainActivity) getActivity();
     public static String baseImageURL;
 
-
-
     ImageView iv;
     Bitmap bm;
     TextView tv,tvName,tvCall,tvAdd,tvWatch,tvJongmok,tvCar;
     private ProgressDialog progressDialog;
-
-
 
     @Nullable
     @Override
