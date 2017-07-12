@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DOLMONO.iml" filepath="$PROJECT_DIR$/DOLMONO.iml" />
       <module fileurl="file://$PROJECT_DIR$/DOLMONOproto.iml" filepath="$PROJECT_DIR$/DOLMONOproto.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
