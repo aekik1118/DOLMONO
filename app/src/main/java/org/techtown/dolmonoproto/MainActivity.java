@@ -16,6 +16,12 @@ public class MainActivity extends AppCompatActivity
     android.app.FragmentManager manager = getFragmentManager();
     private BackPressCloseHandler backPressCloseHandler;
     public static String baseImageURL;
+    public static String stdname;
+    public static String stdcall;
+    public static String stdwatch;
+    public static String stdcar;
+    public static String stdjongmok;
+    public static String stdadd;
 
 
     @Override

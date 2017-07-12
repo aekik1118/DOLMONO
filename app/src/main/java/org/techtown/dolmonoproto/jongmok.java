@@ -40,7 +40,7 @@ public class jongmok extends Fragment{
 
     ImageView iv;
     Bitmap bm;
-    TextView tv;
+    TextView tv,tvName,tvCall,tvAdd,tvWatch,tvJongmok,tvCar;
     private ProgressDialog progressDialog;
 
 
@@ -52,6 +52,12 @@ public class jongmok extends Fragment{
 
         iv = (ImageView) v.findViewById(R.id.imageView24);
         tv = (TextView)v.findViewById(R.id.textView20);
+        tvName = (TextView)v.findViewById(R.id.textView20);
+        tvWatch = (TextView)v.findViewById(R.id.textView15);
+        tvCall = (TextView)v.findViewById(R.id.textView23);
+        tvCar = (TextView)v.findViewById(R.id.textView17);
+        tvAdd = (TextView)v.findViewById(R.id.textView21);
+        tvJongmok = (TextView)v.findViewById(R.id.textView14);
 
         baseImageURL = activity.baseImageURL;
 
@@ -86,6 +92,12 @@ public class jongmok extends Fragment{
         try{
             mThread.join();
             iv.setImageBitmap(bm);
+            tvName.setText(activity.stdname);
+            tvAdd.setText(activity.stdadd);
+            tvWatch.setText(activity.stdwatch);
+            tvCar.setText(activity.stdcar);
+            tvCall.setText(activity.stdcall);
+            tvJongmok.setText(activity.stdjongmok);
 
         }catch (InterruptedException e){
 
