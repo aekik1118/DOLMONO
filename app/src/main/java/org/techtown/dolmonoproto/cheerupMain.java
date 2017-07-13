@@ -19,6 +19,7 @@ public class cheerupMain extends Fragment{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.cheerup_main_layout, container, false);
 
+
         return v;
     }
 }
