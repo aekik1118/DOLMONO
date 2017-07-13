@@ -1,11 +1,14 @@
 package org.techtown.dolmonoproto;
 
 import android.app.Fragment;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 /**
@@ -30,6 +33,17 @@ public class jongmokMain extends Fragment{
         ImageView iv628 = (ImageView)v.findViewById(R.id.imageView628);
         ImageView iv629 = (ImageView)v.findViewById(R.id.imageView629);
         ImageView iv624 = (ImageView)v.findViewById(R.id.imageView624);
+
+        Button bt58 = (Button)v.findViewById(R.id.button58);
+
+        bt58.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=225&mod=&scode=00000002&code3=%EC%B6%A9%EC%A3%BC%EC%8B%9C&kwd="));
+                startActivity(intent);
+            }
+        });
 
         iv530.setOnClickListener(new View.OnClickListener() {
             @Override
