@@ -17,12 +17,19 @@ import android.widget.ImageView;
 
 public class jongmokMain extends Fragment{
     View v;
+    MainActivity activity;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.jongmok_main_layout, container, false);
+
+        activity = (MainActivity) getActivity();
+
+        activity.setTitle("경기 종목");
+
+
 
         ImageView iv530 = (ImageView)v.findViewById(R.id.imageView530);
         ImageView iv528 = (ImageView)v.findViewById(R.id.imageView528);
@@ -409,7 +416,6 @@ public class jongmokMain extends Fragment{
         iv530.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity activity = (MainActivity) getActivity();
                 activity.stdname="충주일원";
                 activity.stdadd="충북 충주시 호암동 626번지";
                 activity.stdwatch="15000석";
@@ -426,7 +432,6 @@ public class jongmokMain extends Fragment{
         iv528.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity activity = (MainActivity) getActivity();
                 activity.stdname="건국대학교 축구장";
                 activity.stdadd="충북 충주시 단월동 322";
                 activity.stdwatch="-석";
@@ -441,7 +446,6 @@ public class jongmokMain extends Fragment{
         iv529.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity activity = (MainActivity) getActivity();
                 activity.stdname="건국대학교체육관";
                 activity.stdadd="충북 충주시 충원대로 268";
                 activity.stdwatch="1520석";
@@ -456,7 +460,6 @@ public class jongmokMain extends Fragment{
         iv524.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity activity = (MainActivity) getActivity();
                 activity.stdname="탄금테니스장(충주)";
                 activity.stdadd="충북 충주시 낙수당2길 8";
                 activity.stdwatch="100석";

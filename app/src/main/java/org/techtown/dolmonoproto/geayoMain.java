@@ -15,11 +15,17 @@ import android.widget.Button;
 public class geayoMain extends Fragment{
     View v;
 
+    MainActivity activity;
+
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.geayo_main_layout, container, false);
+
+
+        activity = (MainActivity) getActivity();
+        activity.setTitle("대회 개요");
 
         Button button9 = (Button)v.findViewById(R.id.button9);
         Button button3 = (Button)v.findViewById(R.id.button3);

@@ -115,10 +115,6 @@ public class MainActivity extends AppCompatActivity
             manager.popBackStackImmediate();
             manager.beginTransaction().replace(R.id.content_main,new Main()).commit();
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

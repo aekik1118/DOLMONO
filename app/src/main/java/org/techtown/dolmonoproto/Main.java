@@ -17,6 +17,7 @@ import java.util.Calendar;
 
 public class Main extends Fragment{
     View v;
+    MainActivity activity;
 
 
 
@@ -24,6 +25,9 @@ public class Main extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.main_layout, container, false);
+        activity = (MainActivity) getActivity();
+
+        activity.setTitle("함께하는 충북 전국체전");
 
         Button button2 = (Button)v.findViewById(R.id.button2);
         Button button4 = (Button)v.findViewById(R.id.button4);

@@ -13,12 +13,17 @@ import android.view.ViewGroup;
 
 public class symbol extends Fragment{
     View v;
+    MainActivity activity;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.symbol_layout, container, false);
+
+
+        activity = (MainActivity) getActivity();
+        activity.setTitle("상징물");
 
 
 

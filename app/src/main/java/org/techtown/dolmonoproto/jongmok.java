@@ -25,8 +25,11 @@ import java.net.URL;
 
 public class jongmok extends Fragment{
     View v;
-    MainActivity activity = (MainActivity) getActivity();
+    MainActivity activity;
     public static String baseImageURL;
+
+
+
 
     ImageView iv;
     Bitmap bm;
@@ -37,6 +40,12 @@ public class jongmok extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.jongmok_layout, container, false);
+
+        activity = (MainActivity) getActivity();
+
+        activity.setTitle("수정예정");
+
+
 
         iv = (ImageView) v.findViewById(R.id.imageView24);
         tv = (TextView)v.findViewById(R.id.textView20);

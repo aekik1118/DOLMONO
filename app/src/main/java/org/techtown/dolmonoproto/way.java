@@ -13,12 +13,18 @@ import android.view.ViewGroup;
 
 public class way extends Fragment{
     View v;
+    MainActivity activity;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.way_layout, container, false);
+
+        activity = (MainActivity) getActivity();
+
+        activity.setTitle("찾아 오시는 길");
+
         return v;
     }
 
