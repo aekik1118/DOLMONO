@@ -425,6 +425,7 @@ public class jongmokMain extends Fragment{
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025730971qQXH31.jpg";
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=15;
+                activity.jongmokName="육상";
                 activity.onFragmentChanged(53);
             }
         });
@@ -439,6 +440,9 @@ public class jongmokMain extends Fragment{
                 activity.stdcar="70대";
                 activity.stdjongmok="축구(남대부)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203101820113HNWH2w.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=15;
+                activity.jongmokName="축구";
                 activity.onFragmentChanged(53);
             }
         });
@@ -453,6 +457,9 @@ public class jongmokMain extends Fragment{
                 activity.stdcar="250대";
                 activity.stdjongmok="복싱(전종별)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203102143634k2hfxd.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=15;
+                activity.jongmokName="복싱";
                 activity.onFragmentChanged(53);
             }
         });
@@ -467,6 +474,9 @@ public class jongmokMain extends Fragment{
                 activity.stdcar="1000대";
                 activity.stdjongmok="테니스(전종별)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203054918897Vfn3Qo.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=15;
+                activity.jongmokName="테니스";
                 activity.onFragmentChanged(53);
             }
         });

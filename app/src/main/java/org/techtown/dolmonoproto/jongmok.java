@@ -43,7 +43,7 @@ public class jongmok extends Fragment{
 
         activity = (MainActivity) getActivity();
 
-        activity.setTitle("수정예정");
+        activity.setTitle(activity.jongmokName);
 
 
 

@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity
     public static String stdcar;
     public static String stdjongmok;
     public static String stdadd;
+    public static String jongmokName;
     public static int sogeaNum;
     public static int sogeaLastIndex;
 
