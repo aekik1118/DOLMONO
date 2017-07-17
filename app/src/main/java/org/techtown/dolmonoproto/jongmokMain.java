@@ -440,8 +440,8 @@ public class jongmokMain extends Fragment{
                 activity.stdcar="70대";
                 activity.stdjongmok="축구(남대부)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203101820113HNWH2w.jpg";
-                activity.sogeaLastIndex=7;
-                activity.sogeaNum=15;
+                activity.sogeaLastIndex=8;
+                activity.sogeaNum=9;
                 activity.jongmokName="축구";
                 activity.onFragmentChanged(53);
             }

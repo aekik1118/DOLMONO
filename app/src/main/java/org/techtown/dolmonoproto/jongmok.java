@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,10 @@ public class jongmok extends Fragment{
     MainActivity activity;
     public static String baseImageURL;
 
+    ViewPager pager;
+
+    ImageAdapter adapter;
+
 
 
 
@@ -44,6 +49,10 @@ public class jongmok extends Fragment{
         activity = (MainActivity) getActivity();
 
         activity.setTitle(activity.jongmokName);
+
+        pager=(ViewPager)v.findViewById(R.id.vp);
+        adapter = new ImageAdapter(activity);
+        pager.setAdapter(adapter);
 
 
 
