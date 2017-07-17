@@ -41,6 +41,62 @@ public class jongmokMain extends Fragment{
         ImageView iv629 = (ImageView)v.findViewById(R.id.imageView629);
         ImageView iv624 = (ImageView)v.findViewById(R.id.imageView624);
 
+        ImageView iv730 = (ImageView)v.findViewById(R.id.imageView730);
+        ImageView iv728 = (ImageView)v.findViewById(R.id.imageView728);
+        ImageView iv729 = (ImageView)v.findViewById(R.id.imageView729);
+        ImageView iv724 = (ImageView)v.findViewById(R.id.imageView724);
+
+        ImageView iv830 = (ImageView)v.findViewById(R.id.imageView830);
+        ImageView iv828 = (ImageView)v.findViewById(R.id.imageView828);
+        ImageView iv829 = (ImageView)v.findViewById(R.id.imageView829);
+
+        ImageView iv130 = (ImageView)v.findViewById(R.id.imageView130);
+        ImageView iv128 = (ImageView)v.findViewById(R.id.imageView128);
+        ImageView iv129 = (ImageView)v.findViewById(R.id.imageView129);
+        ImageView iv124 = (ImageView)v.findViewById(R.id.imageView124);
+
+        ImageView iv230 = (ImageView)v.findViewById(R.id.imageView230);
+        ImageView iv228 = (ImageView)v.findViewById(R.id.imageView228);
+        ImageView iv229 = (ImageView)v.findViewById(R.id.imageView229);
+        ImageView iv224 = (ImageView)v.findViewById(R.id.imageView224);
+
+        ImageView iv330 = (ImageView)v.findViewById(R.id.imageView330);
+        ImageView iv328 = (ImageView)v.findViewById(R.id.imageView328);
+        ImageView iv329 = (ImageView)v.findViewById(R.id.imageView329);
+        ImageView iv324 = (ImageView)v.findViewById(R.id.imageView324);
+
+        ImageView iv430 = (ImageView)v.findViewById(R.id.imageView430);
+        ImageView iv428 = (ImageView)v.findViewById(R.id.imageView428);
+        ImageView iv429 = (ImageView)v.findViewById(R.id.imageView429);
+
+        ImageView iv930 = (ImageView)v.findViewById(R.id.imageView930);
+        ImageView iv928 = (ImageView)v.findViewById(R.id.imageView928);
+        ImageView iv929 = (ImageView)v.findViewById(R.id.imageView929);
+        ImageView iv924 = (ImageView)v.findViewById(R.id.imageView924);
+
+        ImageView iv1030 = (ImageView)v.findViewById(R.id.imageView1030);
+        ImageView iv1028 = (ImageView)v.findViewById(R.id.imageView1028);
+        ImageView iv1029 = (ImageView)v.findViewById(R.id.imageView1029);
+
+        ImageView iv1130 = (ImageView)v.findViewById(R.id.imageView1130);
+        ImageView iv1128 = (ImageView)v.findViewById(R.id.imageView1128);
+
+        ImageView iv1230 = (ImageView)v.findViewById(R.id.imageView1230);
+        ImageView iv1228 = (ImageView)v.findViewById(R.id.imageView1228);
+
+        ImageView iv1330 = (ImageView)v.findViewById(R.id.imageView1330);
+        ImageView iv1328 = (ImageView)v.findViewById(R.id.imageView1328);
+
+        ImageView iv1430 = (ImageView)v.findViewById(R.id.imageView1430);
+
+        ImageView iv1530 = (ImageView)v.findViewById(R.id.imageView1530);
+
+        ImageView iv1630 = (ImageView)v.findViewById(R.id.imageView1630);
+
+        ImageView iv1730 = (ImageView)v.findViewById(R.id.imageView1730);
+
+        ImageView iv1830 = (ImageView)v.findViewById(R.id.imageView1830);
+
         Button bt58 = (Button)v.findViewById(R.id.button58);
 
         bt58.setOnClickListener(new View.OnClickListener() {
@@ -406,13 +462,6 @@ public class jongmokMain extends Fragment{
         });
 
 
-
-
-
-
-
-
-
         iv530.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -458,7 +507,7 @@ public class jongmokMain extends Fragment{
                 activity.stdjongmok="복싱(전종별)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203102143634k2hfxd.jpg";
                 activity.sogeaLastIndex=7;
-                activity.sogeaNum=15;
+                activity.sogeaNum=32;
                 activity.jongmokName="복싱";
                 activity.onFragmentChanged(53);
             }
@@ -467,19 +516,768 @@ public class jongmokMain extends Fragment{
         iv524.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activity.stdname="탄금테니스장(충주)";
+                activity.stdname="탄금 테니스장(충주)";
                 activity.stdadd="충북 충주시 낙수당2길 8";
                 activity.stdwatch="100석";
                 activity.stdcall="043-870-7832";
-                activity.stdcar="1000대";
+                activity.stdcar="1,000대";
                 activity.stdjongmok="테니스(전종별)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203054918897Vfn3Qo.jpg";
-                activity.sogeaLastIndex=7;
-                activity.sogeaNum=15;
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=5;
                 activity.jongmokName="테니스";
                 activity.onFragmentChanged(53);
             }
         });
+
+        iv630.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="호암 제 2체육관 (충주)";
+                activity.stdadd="충북 충주시 중원대로 3306";
+                activity.stdwatch="500석";
+                activity.stdcall="043-870-7832";
+                activity.stdcar="300대";
+                activity.stdjongmok="레슬링(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170222052942441PTkNpn.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=37;
+                activity.jongmokName="레슬링";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv628.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="호암체육관 (충주)";
+                activity.stdadd="충북 충주시 중원대로 3306";
+                activity.stdwatch="970석";
+                activity.stdcall="043-870-7832";
+                activity.stdcar="300대";
+                activity.stdjongmok="배드민턴(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203055309898ymo4mP.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=34;
+                activity.jongmokName="배드민턴";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv629.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="충주체육관";
+                activity.stdadd="충북 충주시 예성로 266";
+                activity.stdwatch="3,200석";
+                activity.stdcall="043-850-3904";
+                activity.stdcar="120대";
+                activity.stdjongmok="태권도(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/2017020305431463397SkPR.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=46;
+                activity.jongmokName="태권도";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv624.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="탄금호 국제 조정경기장";
+                activity.stdadd="충북 충주시 중앙탑면 중앙탑길 150";
+                activity.stdwatch="1,100석";
+                activity.stdcall="043-850-2993";
+                activity.stdcar="-대";
+                activity.stdjongmok="조정(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203055009402vbgNZS.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=12;
+                activity.jongmokName="조정";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv730.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="충주 요트경기장";
+                activity.stdadd="충북 충주시 동량면 지등로 1604";
+                activity.stdwatch="-석";
+                activity.stdcall="043-4223-9969";
+                activity.stdcar="-대";
+                activity.stdjongmok="세일링(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025642350QRAZde.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=27;
+                activity.jongmokName="세일링";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv728.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="충주 문화회관";
+                activity.stdadd="충북 충주시 중앙로 128";
+                activity.stdwatch="923석";
+                activity.stdcall="043-850-3911";
+                activity.stdcar="120대";
+                activity.stdjongmok="보디빌딩(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025227922ZQKpSo.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=33;
+                activity.jongmokName="보디빌딩";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv729.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="교통대학교 체육관(충주)";
+                activity.stdadd="충북 충주시 대소원면 대학로 50";
+                activity.stdwatch="710석";
+                activity.stdcall="043-841-5051";
+                activity.stdcar="150대";
+                activity.stdjongmok="바둑(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170222052735960HH6ZmD.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=36;
+                activity.jongmokName="바둑";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv724.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="수안보 인공 암벽장";
+                activity.stdadd="충북 충주시 수안보면 수안보로 129";
+                activity.stdwatch="-석";
+                activity.stdcall="043-850-3904";
+                activity.stdcar="-대";
+                activity.stdjongmok="산악(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203105400827Fte3Tw.jpg";
+                activity.sogeaLastIndex=5;
+                activity.sogeaNum=28;
+                activity.jongmokName="산악";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv830.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="중앙경찰학교 체육관";
+                activity.stdadd="충북 충주시 수안보면 수회리로 138";
+                activity.stdwatch="600석";
+                activity.stdcall="043-870-2272";
+                activity.stdcar="50대";
+                activity.stdjongmok="택견(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201702031118081039RpUbP.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=6;
+                activity.jongmokName="택견";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv828.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="탄금호 수상스키장";
+                activity.stdadd="충북 충주시 중앙탑면 창동리 208";
+                activity.stdwatch="-석";
+                activity.stdcall="043-8844-4402";
+                activity.stdcar="-대";
+                activity.stdjongmok="수상스키(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203055136020ZA8Soo.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=25;
+                activity.jongmokName="수상스키";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv829.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="탄금호 국제 조정경기장 일원";
+                activity.stdadd="충북 충주시 중앙탑면 중앙탑길 150";
+                activity.stdwatch="1,100석";
+                activity.stdcall="043-850-2993";
+                activity.stdcar="-대";
+                activity.stdjongmok="철인3종(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201702030550570518laKA1.jpg";
+                activity.sogeaLastIndex=8;
+                activity.sogeaNum=11;
+                activity.jongmokName="철인3종";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv130.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 실내수영장, 충북 학생수영장";
+                activity.stdadd="충북 청주시 서원구 흥덕로 61, 충북 청주시 청원구 공항로 59번길 33";
+                activity.stdwatch="1,024석, 530석";
+                activity.stdcall="043-270-8512, 043-254-7251";
+                activity.stdcar="500대, 200대";
+                activity.stdjongmok="수영(경영, 수구), 수영(싱크로, 다이빙)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115128059tFZPl0.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=24;
+                activity.jongmokName="수영";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv128.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 야구장, 세광고 야구장";
+                activity.stdadd="충북 청주시 서원구 사직대로 229, 충북 청주시 서원구 2순환로 1572";
+                activity.stdwatch="10,500석, 250석";
+                activity.stdcall="043-201-2381, 043-230-1904";
+                activity.stdcar="500대, 300대";
+                activity.stdjongmok="야구 소프트볼(일반부), 야구 소프트볼(고등부)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115224886RLwU8T.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=20;
+                activity.jongmokName="야구";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv129.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 정구장";
+                activity.stdadd="충북 청주시 흥덕구 대신로 157";
+                activity.stdwatch="930석";
+                activity.stdcall="043-201-2381";
+                activity.stdcar="100대";
+                activity.stdjongmok="정구(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115636128uBvc2I.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=13;
+                activity.jongmokName="정구";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv124.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주대 석우 문화체육관";
+                activity.stdadd="충북 청주시 청원구 대성로 298";
+                activity.stdwatch="3,500석";
+                activity.stdcall="043-229-8086";
+                activity.stdcar="400대";
+                activity.stdjongmok="핸드볼(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203112353279gKc2wL.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=1;
+                activity.jongmokName="핸드볼";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv230.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="공군사관학교 성무종합경기장";
+                activity.stdadd="충북 청주시 남일면 단재로 635";
+                activity.stdwatch="3,000석";
+                activity.stdcall="043-290-6217";
+                activity.stdcar="150대";
+                activity.stdjongmok="럭비(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203102304359NxSNFN.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=38;
+                activity.jongmokName="럭비";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv228.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 유도회관";
+                activity.stdadd="충북 청주시 상당구 1순환로 1514번길 70";
+                activity.stdwatch="380석";
+                activity.stdcall="043-201-2381";
+                activity.stdcar="200대";
+                activity.stdjongmok="유도(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115320030P6HH9S.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=16;
+                activity.jongmokName="유도";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv229.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="김수녕 양궁장";
+                activity.stdadd="충북 청주시 상당구 1순환로 1514번길 89";
+                activity.stdwatch="128석";
+                activity.stdcall="043-270-8512";
+                activity.stdcar="150대";
+                activity.stdjongmok="양궁(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103203630XWIoGB.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=19;
+                activity.jongmokName="양궁";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv224.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 종합사격장";
+                activity.stdadd="충북 청주시 청원구 내수읍 도원세교로 369";
+                activity.stdwatch="300석";
+                activity.stdcall="043-270-7370";
+                activity.stdcar="150대";
+                activity.stdjongmok="사격(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115837274iAElYb.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=30;
+                activity.jongmokName="사격";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv330.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="금강볼링장";
+                activity.stdadd="충북 청주시 흥덕구 사운로 223";
+                activity.stdwatch="-석";
+                activity.stdcall="043-275-2222";
+                activity.stdcar="70대";
+                activity.stdjongmok="볼링(남일부)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103041624DXCMBj.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=31;
+                activity.jongmokName="볼링";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv328.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="충북 학생 롤러경기장";
+                activity.stdadd="충북 청주시 흥덕구 수의로 221";
+                activity.stdwatch="468석";
+                activity.stdcall="043-234-5054";
+                activity.stdcar="-대";
+                activity.stdjongmok="롤러(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203024940483hVskGn.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=14;
+                activity.jongmokName="롤러";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv329.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="충북 학생수영장";
+                activity.stdadd="충북 청주시 청원구 공항로 59번길 33";
+                activity.stdwatch="530석";
+                activity.stdcall="043-254-7251";
+                activity.stdcar="200대";
+                activity.stdjongmok="핀수영(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025040363onFRvP.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=3;
+                activity.jongmokName="핀수영";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv324.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 종합경기장";
+                activity.stdadd="충북 청주시 서원구 사직대로 229";
+                activity.stdwatch="16,280석";
+                activity.stdcall="043-201-2381";
+                activity.stdcar="500대";
+                activity.stdjongmok="근대5종(복합(육상+사격))";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115753152lvGOhz.jpg";
+                activity.sogeaLastIndex=9;
+                activity.sogeaNum=42;
+                activity.jongmokName="근대5종";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv430.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주체육관";
+                activity.stdadd="충북 청주시 서원구 사직대로 229";
+                activity.stdwatch="4,180석";
+                activity.stdcall="043-201-2381";
+                activity.stdcar="500대";
+                activity.stdjongmok="농구(일반부)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203120452521jrpxkI.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=41;
+                activity.jongmokName="농구";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv428.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 장애인 스포츠센터";
+                activity.stdadd="충북 청주시 청원구 사천로 18번길 81";
+                activity.stdwatch="250석";
+                activity.stdcall="043-201-2381";
+                activity.stdcar="-대";
+                activity.stdjongmok="검도(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115418704TcnTJX.jpg";
+                activity.sogeaLastIndex=5;
+                activity.sogeaNum=45;
+                activity.jongmokName="검도";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv429.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청주 스쿼시경기장";
+                activity.stdadd="충북 청주시 상당구 월오동 179-3";
+                activity.stdwatch="255석";
+                activity.stdcall="043-201-2153";
+                activity.stdcar="255대";
+                activity.stdjongmok="스쿼시(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201705181032487199CwA0h.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=23;
+                activity.jongmokName="스쿼시";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv930.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="세명대 체육관(제천)";
+                activity.stdadd="충북 제천시 세명로 65";
+                activity.stdwatch="1,800석";
+                activity.stdcall="043-649-1562";
+                activity.stdcar="200대";
+                activity.stdjongmok="배구(남대, 남일)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201702031050152486IubhE.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=35;
+                activity.jongmokName="배구";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv928.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="제천 산악자전거 경기장";
+                activity.stdadd="충북 제천시 송학면 명암로 1031";
+                activity.stdwatch="150석";
+                activity.stdcall="043-641-5573";
+                activity.stdcar="50대";
+                activity.stdjongmok="자전거(MTB전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110748655QrLDyH.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=29;
+                activity.jongmokName="자전거(MTB)";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv929.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="제천 어울림 체육관 ";
+                activity.stdadd="충북 제천시 관전로 70";
+                activity.stdwatch="150석";
+                activity.stdcall="043-641-5601";
+                activity.stdcar="100대";
+                activity.stdjongmok="체조(리듬체조)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110905143sAu9RI.jpg";
+                activity.sogeaLastIndex=5;
+                activity.sogeaNum=10;
+                activity.jongmokName="체조";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv924.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="청풍명월 국제하키장(제천)";
+                activity.stdadd="충북 제천시 청풍면 물태리 103";
+                activity.stdwatch="800석";
+                activity.stdcall="043-641-4809";
+                activity.stdcar="500대";
+                activity.stdjongmok="하키(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203120605907gD1t4D.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=2;
+                activity.jongmokName="하키";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1030.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="충북체고 체육관(진천)";
+                activity.stdadd="충북 진천군 문백면 도하3길 120";
+                activity.stdwatch="1,000석";
+                activity.stdcall="043-531-8023";
+                activity.stdcar="200대";
+                activity.stdjongmok="펜싱(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203024845053tDBR8V.jpg";
+                activity.sogeaLastIndex=8;
+                activity.sogeaNum=4;
+                activity.jongmokName="펜싱";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1028.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="초평 카누경기장 (진천)";
+                activity.stdadd="충북 진천군 초평면 평화로 403-130";
+                activity.stdwatch="-석";
+                activity.stdcall="043-539-3612";
+                activity.stdcar="100대";
+                activity.stdjongmok="카누";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203024640320OBYWYD.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=8;
+                activity.jongmokName="카누";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1029.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="아트밸리CC (진천)";
+                activity.stdadd="충북 진천군 진천읍 송강로 783-51";
+                activity.stdwatch="-석";
+                activity.stdcall="043-531-3012";
+                activity.stdcar="-대";
+                activity.stdjongmok="골프(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201702031056574752bkUAT.jpg";
+                activity.sogeaLastIndex=5;
+                activity.sogeaNum=44;
+                activity.jongmokName="골프";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1130.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="음성 종합운동장";
+                activity.stdadd="충북 음성군 음성읍 설성로 47";
+                activity.stdwatch="7,000석";
+                activity.stdcall="043-871-2460";
+                activity.stdcar="300대";
+                activity.stdjongmok="자전거(트랙경기)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203114649005PMdb9B.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=29;
+                activity.jongmokName="자전거(트랙)";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1128.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="음성 실내체육관";
+                activity.stdadd="충북 음성군 음성읍 설성로 47";
+                activity.stdwatch="1,587석";
+                activity.stdcall="043-871-2460";
+                activity.stdcar="300대";
+                activity.stdjongmok="댄스스포츠(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110523762y8TtMk.jpg";
+                activity.sogeaLastIndex=5;
+                activity.sogeaNum=39;
+                activity.jongmokName="댄스스포츠";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1230.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="보은 국민체육센터";
+                activity.stdadd="충북 보은군 보은읍 군청길 38-1";
+                activity.stdwatch="1,000석";
+                activity.stdcall="043-540-3463";
+                activity.stdcar="200대";
+                activity.stdjongmok="세팍타크로(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203104141027AW0g7g.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=26;
+                activity.jongmokName="세팍타크로";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1228.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="보은 스포츠파크 야구장";
+                activity.stdadd="충북 충북 보은군 보은읍 이평리 16-2";
+                activity.stdwatch="350석";
+                activity.stdcall="043-540-3378";
+                activity.stdcar="-대";
+                activity.stdjongmok="야구 소프트볼(야구)(여자부)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170531060125138AtYcQ1.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=20;
+                activity.jongmokName="소프트볼";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1330.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="사호정(괴산)";
+                activity.stdadd="충북 괴산군 괴산읍 동진천길 213";
+                activity.stdwatch="-석";
+                activity.stdcall="043-830-3810";
+                activity.stdcar="500대";
+                activity.stdjongmok="궁도(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201702031044028687lwXHL.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=43;
+                activity.jongmokName="궁도";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1328.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="괴산 문화체육센터";
+                activity.stdadd="충북 괴산군 괴산읍 임꺽정로 99-9";
+                activity.stdwatch="1,457석";
+                activity.stdcall="043-830-3830";
+                activity.stdcar="300대";
+                activity.stdjongmok="당구(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203102448520IwDVIE.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=40;
+                activity.jongmokName="당구";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1430.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="증평 종합 스포츠센터";
+                activity.stdadd="충북 증평군 증평읍 인삼로 23";
+                activity.stdwatch="1,370석";
+                activity.stdcall="043-835-3663";
+                activity.stdcar="100대";
+                activity.stdjongmok="당구(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203112203927NGzriq.jpg";
+                activity.sogeaLastIndex=8;
+                activity.sogeaNum=21;
+                activity.jongmokName="씨름";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1530.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="단양 국민체육센터";
+                activity.stdadd="충북 단양군 단양읍 군청로 84-8";
+                activity.stdwatch="1,200석";
+                activity.stdcall="043-420-3105";
+                activity.stdcar="600대";
+                activity.stdjongmok="탁구(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103316908kuVtYM.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=7;
+                activity.jongmokName="탁구";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1630.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="옥천 체육센터";
+                activity.stdadd="충북 옥천군 옥천읍 관성로 53";
+                activity.stdwatch="1,750석";
+                activity.stdcall="043-730-4865";
+                activity.stdcar="150대";
+                activity.stdjongmok="우슈(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110118757CQIZc8.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=17;
+                activity.jongmokName="우슈";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1730.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="영동체육관";
+                activity.stdadd="충북 영동군 영동읍 영동황간로 122";
+                activity.stdwatch="1,410석";
+                activity.stdcall="043-740-5992";
+                activity.stdcar="200대";
+                activity.stdjongmok="역도(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203105755364IMFM9P.jpg";
+                activity.sogeaLastIndex=6;
+                activity.sogeaNum=18;
+                activity.jongmokName="역도";
+                activity.onFragmentChanged(53);
+            }
+        });
+
+        iv1830.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.stdname="상주 국제승마장(실외)";
+                activity.stdadd="경북 상주시 사벌면 경천로 683-47";
+                activity.stdwatch="1,270석";
+                activity.stdcall="054-535-5365";
+                activity.stdcar="126대";
+                activity.stdjongmok="승마(전종별)";
+                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203104451337pY9mwL.jpg";
+                activity.sogeaLastIndex=7;
+                activity.sogeaNum=22;
+                activity.jongmokName="승마";
+                activity.onFragmentChanged(53);
+            }
+        });
+
 
 
 
