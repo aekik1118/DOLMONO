@@ -19,6 +19,9 @@ public class ImageAdapter extends PagerAdapter {
     Context context;
     Bitmap galImage,bm;
     BitmapFactory.Options options;
+    public int index,num;
+
+
     private int[] galImages = new int[] {
             1,
             2,
@@ -31,18 +34,39 @@ public class ImageAdapter extends PagerAdapter {
     public static String baseImageURL;
 
 
-    ImageAdapter(Context context) {
+    ImageAdapter(Context context,int index, int num) {
         this.context = context;
+        this.index = index;
+        this.num = num;
         options = new BitmapFactory.Options();
 
 
+        if(index == 5)
+        {
+            galImages = new int[]{
+                    1,2,3,4,5
+            };
+        }
+        else if(index == 7)
+        {
+            galImages = new int[]{
+                    1,2,3,4,5,6,7
+            };
 
+        }
+        else if(index == 8)
+        {
+            galImages = new int[]{
+                    1,2,3,4,5,6,7,8
+            };
 
-
-
-
-
-
+        }
+        else if(index == 9)
+        {
+            galImages = new int[]{
+                    1,2,3,4,5,6,7,8,9
+            };
+        }
 
 
     }
@@ -61,12 +85,18 @@ public class ImageAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         ImageView imageView = new ImageView(context);
         int padding = 0;
-        int c = 14;
         imageView.setPadding(padding, padding, padding, padding);
         imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-        baseImageURL = "http://2017sports.chungbuk.go.kr/DATA/sport/entries/"+c+"_"+(position+1)+".jpg";
 
 
+        if(num==15&&position==5)
+        {
+            baseImageURL = "http://2017sports.chungbuk.go.kr/DATA/sport/entries/"+num+"_"+(position+2)+".jpg";
+        }
+        else
+        {
+            baseImageURL = "http://2017sports.chungbuk.go.kr/DATA/sport/entries/"+num+"_"+(position+1)+".jpg";
+        }
 
         Thread mThread = new Thread()
         {

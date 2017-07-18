@@ -51,7 +51,11 @@ public class jongmok extends Fragment{
         activity.setTitle(activity.jongmokName);
 
         pager=(ViewPager)v.findViewById(R.id.vp);
-        adapter = new ImageAdapter(activity);
+        adapter = new ImageAdapter(activity,activity.sogeaLastIndex,activity.sogeaNum);
+
+
+
+
         pager.setAdapter(adapter);
 
 

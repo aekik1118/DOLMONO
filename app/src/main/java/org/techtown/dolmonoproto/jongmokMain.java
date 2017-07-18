@@ -472,7 +472,7 @@ public class jongmokMain extends Fragment{
                 activity.stdcar="-대";
                 activity.stdjongmok="육상(마라톤)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025730971qQXH31.jpg";
-                activity.sogeaLastIndex=7;
+                activity.sogeaLastIndex=6;
                 activity.sogeaNum=15;
                 activity.jongmokName="육상";
                 activity.onFragmentChanged(53);
