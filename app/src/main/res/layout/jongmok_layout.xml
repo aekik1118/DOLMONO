@@ -99,7 +99,7 @@
                     android:layout_weight="1.5"
                     android:gravity="center"
                     android:text="TextView"
-                    android:textSize="11sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/textView19"
@@ -120,7 +120,7 @@
                     android:layout_weight="1.5"
                     android:gravity="center"
                     android:text="Text"
-                    android:textSize="11sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -148,7 +148,7 @@
                     android:layout_weight="1.5"
                     android:gravity="center"
                     android:text="TextView"
-                    android:textSize="11sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/textView18"
@@ -169,7 +169,7 @@
                     android:layout_weight="1.5"
                     android:gravity="center"
                     android:text="text"
-                    android:textSize="11sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -199,7 +199,7 @@
                     android:layout_weight="1.5"
                     android:gravity="center"
                     android:text="TextView"
-                    android:textSize="11sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/textView22"
@@ -220,7 +220,7 @@
                     android:layout_weight="1.5"
                     android:gravity="center"
                     android:text="text"
-                    android:textSize="11sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
         </LinearLayout>
