@@ -53,12 +53,7 @@ public class jongmok extends Fragment{
         pager=(ViewPager)v.findViewById(R.id.vp);
         adapter = new ImageAdapter(activity,activity.sogeaLastIndex,activity.sogeaNum);
 
-
-
-
         pager.setAdapter(adapter);
-
-
 
         iv = (ImageView) v.findViewById(R.id.imageView24);
         tv = (TextView)v.findViewById(R.id.textView20);
@@ -92,7 +87,6 @@ public class jongmok extends Fragment{
 
                 }
 
-
             }
 
         };
@@ -101,7 +95,10 @@ public class jongmok extends Fragment{
 
         try{
             mThread.join();
+            iv.setScaleType(ImageView.ScaleType.FIT_CENTER);
+
             iv.setImageBitmap(bm);
+
             tvName.setText(activity.stdname);
             tvAdd.setText(activity.stdadd);
             tvWatch.setText(activity.stdwatch);
