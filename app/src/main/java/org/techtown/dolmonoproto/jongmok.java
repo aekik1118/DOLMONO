@@ -34,8 +34,6 @@ public class jongmok extends Fragment{
     ImageAdapter adapter;
 
 
-
-
     ImageView iv;
     Bitmap bm;
     TextView tv,tvName,tvCall,tvAdd,tvWatch,tvJongmok,tvCar;
