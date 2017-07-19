@@ -62,6 +62,8 @@ public class jongmok extends Fragment{
         tvAdd = (TextView)v.findViewById(R.id.textView21);
         tvJongmok = (TextView)v.findViewById(R.id.textView14);
 
+        iv.setScaleType(ImageView.ScaleType.FIT_XY);
+
         baseImageURL = activity.baseImageURL;
 
         Thread mThread = new Thread()
@@ -93,7 +95,7 @@ public class jongmok extends Fragment{
 
         try{
             mThread.join();
-            iv.setScaleType(ImageView.ScaleType.FIT_CENTER);
+
 
             iv.setImageBitmap(bm);
 
