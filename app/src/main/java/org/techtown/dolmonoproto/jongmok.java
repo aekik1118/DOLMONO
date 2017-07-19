@@ -10,6 +10,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -28,6 +29,9 @@ public class jongmok extends Fragment{
     View v;
     MainActivity activity;
     public static String baseImageURL;
+    Button bt14;
+    Button bt15;
+    int position;
 
     ViewPager pager;
 
@@ -52,6 +56,9 @@ public class jongmok extends Fragment{
         adapter = new ImageAdapter(activity,activity.sogeaLastIndex,activity.sogeaNum);
 
         pager.setAdapter(adapter);
+
+        bt14 = (Button)v.findViewById(R.id.button14);
+        bt15 = (Button)v.findViewById(R.id.button15);
 
         iv = (ImageView) v.findViewById(R.id.imageView24);
         tv = (TextView)v.findViewById(R.id.textView20);
@@ -112,6 +119,32 @@ public class jongmok extends Fragment{
 
 
 
+        bt14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                position=pager.getCurrentItem();//현재 보여지는 아이템의 위치를 리턴
+
+                pager.setCurrentItem(position+1,true);
+
+
+            }
+        });
+
+
+        bt15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                position=pager.getCurrentItem();//현재 보여지는 아이템의 위치를 리턴
+
+
+                pager.setCurrentItem(position-1,true);
+
+            }
+        });
+
+
 
 
 
@@ -120,5 +153,10 @@ public class jongmok extends Fragment{
 
 
 
-
 }
+
+
+
+
+
+
