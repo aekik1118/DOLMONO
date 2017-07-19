@@ -17,7 +17,6 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="vertical"
-            android:paddingRight="5px"
             >
 
             <TextView
@@ -25,9 +24,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/holo_red_light"
                 android:gravity="center"
                 android:text="충주"
-                android:textSize="40sp" />
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,18 +42,19 @@
                 <Button
                     android:id="@+id/button511"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
 
-                    android:text="숙박"
+                    android:background="@drawable/buttonshape3"
 
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
 
 
                     />
@@ -61,30 +64,32 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="맛집"
+                    android:background="@drawable/buttonshape2"
 
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button57"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="관광지"
+                    android:background="@drawable/buttonshape4"
 
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -408,9 +413,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/holo_orange_light"
                 android:gravity="center"
                 android:text="청주"
-                android:textSize="40sp" />
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -423,48 +431,49 @@
                 <Button
                     android:id="@+id/button11"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape2"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
 
-                    android:text="숙박" />
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:background="@drawable/buttonshape4"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
-                    />
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="관광지"
+                    android:background="@drawable/buttonshape"
 
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
-                    />
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -796,9 +805,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@color/green_light_light"
                 android:gravity="center"
                 android:text="제천"
-                android:textSize="40sp" />
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
 
@@ -813,44 +825,47 @@
                 <Button
                     android:id="@+id/button23"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape4"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
-                    android:text="숙박" />
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button24"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:background="@drawable/buttonshape"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button25"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="관광지"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:background="@drawable/buttonshape3"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -943,8 +958,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/holo_blue_bright"
                 android:gravity="center"
                 android:text="진천"
+                android:textStyle="bold"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
                 android:textSize="40sp" />
 
 
@@ -960,46 +978,49 @@
                 <Button
                     android:id="@+id/button1023"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
 
-                    android:text="숙박"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:background="@drawable/buttonshape"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
 
                 <Button
                     android:id="@+id/button1024"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:background="@drawable/buttonshape3"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
 
                 <Button
                     android:id="@+id/button1025"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="관광지"
+                    android:background="@drawable/buttonshape2"
 
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
 
             </LinearLayout>
 
@@ -1092,9 +1113,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/holo_red_light"
                 android:gravity="center"
                 android:text="음성"
-                android:textSize="40sp" />
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
 
@@ -1109,44 +1133,47 @@
                 <Button
                     android:id="@+id/button1123"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
-                    android:text="숙박" />
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button1124"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:background="@drawable/buttonshape2"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/button1125"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="관광지"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:background="@drawable/buttonshape4"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -1242,6 +1269,7 @@
 
                 android:gravity="center"
                 android:text="보은"
+                android:textStyle="bold"
                 android:textSize="40sp" />
 
 
@@ -1259,7 +1287,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-
+                    android:textStyle="bold"
                     android:text="숙박"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1274,6 +1302,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="맛집"
 
                     android:textColor="#FFFFFF"
@@ -1290,6 +1319,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="관광지"
+                    android:textStyle="bold"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:background="@drawable/buttonshape6"
@@ -1391,6 +1421,7 @@
 
                 android:gravity="center"
                 android:text="괴산"
+                android:textStyle="bold"
                 android:textSize="40sp" />
 
 
@@ -1408,7 +1439,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-
+                    android:textStyle="bold"
                     android:text="숙박"
 
                     android:textColor="#FFFFFF"
@@ -1426,6 +1457,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="맛집"
+                    android:textStyle="bold"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:background="@drawable/buttonshape5"
@@ -1439,6 +1471,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="관광지"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1537,7 +1570,7 @@
                 android:id="@+id/textView1426"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="증평"
                 android:textSize="40sp" />
@@ -1557,7 +1590,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-
+                    android:textStyle="bold"
                     android:text="숙박"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1572,6 +1605,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="맛집"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1586,6 +1620,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="관광지"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1685,7 +1720,7 @@
                 android:id="@+id/textView1526"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="단양"
                 android:textSize="40sp" />
@@ -1705,7 +1740,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-
+                    android:textStyle="bold"
                     android:text="숙박"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1720,6 +1755,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="맛집"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1734,6 +1770,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="관광지"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1832,7 +1869,7 @@
                 android:id="@+id/textView1626"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="옥천"
                 android:textSize="40sp" />
@@ -1852,7 +1889,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-
+                    android:textStyle="bold"
                     android:text="숙박"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1868,7 +1905,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="맛집"
-
+                    android:textStyle="bold"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:background="@drawable/buttonshape6"
@@ -1882,6 +1919,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="관광지"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -1981,6 +2019,7 @@
                 android:id="@+id/textView1726"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
+                android:textStyle="bold"
 
                 android:gravity="center"
                 android:text="영동"
@@ -2001,7 +2040,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-
+                    android:textStyle="bold"
                     android:text="숙박"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -2016,6 +2055,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textStyle="bold"
                     android:text="맛집"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
@@ -2031,6 +2071,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="관광지"
+                    android:textStyle="bold"
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:background="@drawable/buttonshape7"
