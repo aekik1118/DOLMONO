@@ -33,6 +33,11 @@ public class cheerupShow extends FragmentActivity {
             tv.setTextColor(Color.RED);
         }
 
+        if(text.isEmpty())
+        {
+            text = "응원 문구를 적어주세요";
+        }
+
 
         tv.setText(text);
 
