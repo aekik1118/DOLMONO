@@ -86,8 +86,7 @@ public class ImageAdapter extends PagerAdapter {
         ImageView imageView = new ImageView(context);
         int padding = 0;
         imageView.setPadding(padding, padding, padding, padding);
-        imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-
+        imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 
         if(num==15&&position==5)
         {
