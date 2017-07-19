@@ -10,8 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.24"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="응원 문구를 적어주세요" />
+        android:hint="응원 문구를 적어주세요"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button6"
