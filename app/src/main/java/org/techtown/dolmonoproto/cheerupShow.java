@@ -1,6 +1,7 @@
 package org.techtown.dolmonoproto;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.TextView;
@@ -20,6 +21,17 @@ public class cheerupShow extends FragmentActivity {
         Intent intent = getIntent();
 
         String text = intent.getStringExtra("text");
+
+        if("green".equals(intent.getStringExtra("color")))
+        {
+            tv.setTextColor(Color.GREEN);
+        }
+        else if("red".equals(intent.getStringExtra("color")))
+        {
+            tv.setTextColor(Color.RED);
+        }
+
+
         tv.setText(text);
 
         tv.setSelected(true);

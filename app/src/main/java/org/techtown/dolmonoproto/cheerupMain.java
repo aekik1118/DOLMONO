@@ -23,6 +23,10 @@ public class cheerupMain extends Fragment{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.cheerup_main_layout, container, false);
         Button b6 = (Button)v.findViewById(R.id.button6);
+        Button b12 = (Button)v.findViewById(R.id.button12);
+        Button b13 = (Button)v.findViewById(R.id.button13);
+
+
         final EditText et = (EditText)v.findViewById(R.id.editText);
 
 
@@ -33,6 +37,34 @@ public class cheerupMain extends Fragment{
 
                 Intent intent = new Intent (getActivity(),cheerupShow.class);
                 intent.putExtra("text",tmp);
+                intent.putExtra("color","green");
+
+                startActivity(intent);
+            }
+        });
+
+        b12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tmp = et.getText().toString();
+
+                Intent intent = new Intent (getActivity(),cheerupShow.class);
+                intent.putExtra("text",tmp);
+                intent.putExtra("color","sky");
+
+                startActivity(intent);
+            }
+        });
+
+        b13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tmp = et.getText().toString();
+
+                Intent intent = new Intent (getActivity(),cheerupShow.class);
+                intent.putExtra("text",tmp);
+                intent.putExtra("color","red");
+
                 startActivity(intent);
             }
         });
