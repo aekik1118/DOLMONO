@@ -21,8 +21,11 @@ public class cheerupShow extends FragmentActivity {
 
         String text = intent.getStringExtra("text");
         tv.setText(text);
+
         tv.setSelected(true);
     }
+
+
 
 }
 
