@@ -11,10 +11,11 @@ import android.view.ViewGroup;
  * Created by aekik on 2017-06-26.
  */
 
+
+
 public class way extends Fragment{
     View v;
     MainActivity activity;
-
 
     @Nullable
     @Override

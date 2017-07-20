@@ -25,7 +25,11 @@
             android:layout_height="0dp"
             android:orientation="vertical"
             android:weightSum="3"
-            android:adjustViewBounds="true">>
+            android:adjustViewBounds="true"><![CDATA[>
+
+
+
+            ]]>
 
             <ImageView
                 android:id="@+id/imageView25"
