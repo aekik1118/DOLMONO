@@ -475,6 +475,28 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=15;
                 activity.jongmokName="육상";
+                activity.stdnum=3;
+
+
+                activity.stdname2="충주일원";
+                activity.stdadd2="충북 충주시 호암동 626번지";
+                activity.stdwatch2="-석";
+                activity.stdcall2="043-850-0411";
+                activity.stdcar2="-대";
+                activity.stdjongmok2="육상 (경보)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025809173YJWUli.jpg";
+
+                activity.stdname3="충주종합운동장(호암)";
+                activity.stdadd3="충북 충주시 호암동 626번지";
+                activity.stdwatch3="15,000석";
+                activity.stdcall3="043-850-0432";
+                activity.stdcar3="1,388대";
+                activity.stdjongmok3="육상 (트랙,필드)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203054211981TCPez4.jpg";
+
+
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -492,6 +514,51 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=8;
                 activity.sogeaNum=9;
                 activity.jongmokName="축구";
+                activity.stdnum=7;
+
+
+                activity.stdname2="수안보생활체육공원축구장";
+                activity.stdadd2="충북 충주시 수안보면 수안보로 72";
+                activity.stdwatch2="500석";
+                activity.stdcall2="043-850-3904";
+                activity.stdcar2="100대";
+                activity.stdjongmok2="축구 (해외동포)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203105301844NQrZHs.jpg";
+
+                activity.stdname3="예성여고축구장";
+                activity.stdadd3="충북 충주시 호암대로 42";
+                activity.stdwatch3="-석";
+                activity.stdcall3="043-848-9865";
+                activity.stdcar3="100대";
+                activity.stdjongmok3="축구 (여고부)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203105909637umPF23.jpg";
+
+                activity.stdname4="충주상고축구장";
+                activity.stdadd4="충북 충주시 방아길 20";
+                activity.stdwatch4="-석";
+                activity.stdcall4="043-844-3323";
+                activity.stdcar4="60대";
+                activity.stdjongmok4="축구 (남고부)";
+                activity.baseImageURL4="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025310936vf1yHE.jpg";
+
+                activity.stdname5="충주종합운동장(교현)";
+                activity.stdadd5="충북 충주시 예성로 266";
+                activity.stdwatch5="17,000석";
+                activity.stdcall5="043-850-3904";
+                activity.stdcar5="150대";
+                activity.stdjongmok5="축구 (남일부)";
+                activity.baseImageURL5="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203053957538U0DB62.jpg";
+
+                activity.stdname6="탄금대축구장A";
+                activity.stdadd6="충북 충주시 남한강로 8";
+                activity.stdwatch6="317석";
+                activity.stdcall6="043-870-7832";
+                activity.stdcar6="70대";
+                activity.stdjongmok6="축구 (여대부)";
+                activity.baseImageURL6="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203054713004tWbXcu.jpg";
+
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -509,6 +576,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=32;
                 activity.jongmokName="복싱";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -526,6 +594,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=5;
                 activity.jongmokName="테니스";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -543,6 +612,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=37;
                 activity.jongmokName="레슬링";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -560,6 +630,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=34;
                 activity.jongmokName="배드민턴";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -577,6 +648,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=46;
                 activity.jongmokName="태권도";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -594,6 +666,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=12;
                 activity.jongmokName="조정";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -611,6 +684,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=27;
                 activity.jongmokName="세일링";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -628,6 +702,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=33;
                 activity.jongmokName="보디빌딩";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -645,6 +720,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=36;
                 activity.jongmokName="바둑";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -662,6 +738,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=5;
                 activity.sogeaNum=28;
                 activity.jongmokName="산악";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -679,6 +756,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=6;
                 activity.jongmokName="택견";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -696,6 +774,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=25;
                 activity.jongmokName="수상스키";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -713,6 +792,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=8;
                 activity.sogeaNum=11;
                 activity.jongmokName="철인3종";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -720,16 +800,28 @@ public class jongmokMain extends Fragment{
         iv130.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activity.stdname="청주 실내수영장, 충북 학생수영장";
-                activity.stdadd="충북 청주시 서원구 흥덕로 61, 충북 청주시 청원구 공항로 59번길 33";
-                activity.stdwatch="1,024석, 530석";
-                activity.stdcall="043-270-8512, 043-254-7251";
-                activity.stdcar="500대, 200대";
-                activity.stdjongmok="수영(경영, 수구), 수영(싱크로, 다이빙)";
+                activity.stdname="청주 실내수영장";
+                activity.stdadd="충북 청주시 서원구 흥덕로 61";
+                activity.stdwatch="1,024석";
+                activity.stdcall="043-270-8512";
+                activity.stdcar="500대";
+                activity.stdjongmok="수영(경영, 수구)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115128059tFZPl0.jpg";
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=24;
                 activity.jongmokName="수영";
+                activity.stdnum=2;
+
+                activity.stdname2="충북학생수영장";
+                activity.stdadd2="충북 청주시 청원구 공항로59번길 33";
+                activity.stdwatch2="530석";
+                activity.stdcall2="043-254-7251";
+                activity.stdcar2="200대";
+                activity.stdjongmok2="수영 (싱크로,다이빙)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025050736LVOYhD.jpg";
+
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -737,16 +829,38 @@ public class jongmokMain extends Fragment{
         iv128.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activity.stdname="청주 야구장, 세광고 야구장";
-                activity.stdadd="충북 청주시 서원구 사직대로 229, 충북 청주시 서원구 2순환로 1572";
-                activity.stdwatch="10,500석, 250석";
-                activity.stdcall="043-201-2381, 043-230-1904";
-                activity.stdcar="500대, 300대";
-                activity.stdjongmok="야구 소프트볼(일반부), 야구 소프트볼(고등부)";
+                activity.stdname="청주 야구장";
+                activity.stdadd="충북 청주시 서원구 사직대로 229";
+                activity.stdwatch="10,500석";
+                activity.stdcall="043-201-2381";
+                activity.stdcar="500대";
+                activity.stdjongmok="야구 소프트볼(일반부)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115224886RLwU8T.jpg";
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=20;
                 activity.jongmokName="야구";
+                activity.stdnum=3;
+
+
+                activity.stdname2="세광고야구장";
+                activity.stdadd2="충북 청주시 서원구 2순환로 1572";
+                activity.stdwatch2="250석";
+                activity.stdcall2="043-230-1904";
+                activity.stdcar2="300대";
+                activity.stdjongmok2="야구소프트볼(야구) (고등부)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203104927417ocTQJA.jpg";
+
+                activity.stdname3="보은스포츠파크 야구장";
+                activity.stdadd3="충북 보은군 보은읍 이평리 16-2";
+                activity.stdwatch3="350석";
+                activity.stdcall3="043-540-3378";
+                activity.stdcar3="-대";
+                activity.stdjongmok3="야구소프트볼(야구) (여자부)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170531060125138AtYcQ1.jpg";
+
+
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -764,6 +878,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=13;
                 activity.jongmokName="정구";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -781,6 +896,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=1;
                 activity.jongmokName="핸드볼";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -798,6 +914,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=38;
                 activity.jongmokName="럭비";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -815,6 +932,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=16;
                 activity.jongmokName="유도";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -832,6 +950,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=19;
                 activity.jongmokName="양궁";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -849,6 +968,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=30;
                 activity.jongmokName="사격";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -866,6 +986,49 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=31;
                 activity.jongmokName="볼링";
+                activity.stdnum=6;
+
+                activity.stdname2="라이프볼링장";
+                activity.stdadd2="충북 청주시 흥덕구 월명로 196";
+                activity.stdwatch2="-석";
+                activity.stdcall2="043-271-7117";
+                activity.stdcar2="100대";
+                activity.stdjongmok2="볼링 (여일부)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103554577yUYHnR.jpg";
+
+                activity.stdname3="로얄볼링장";
+                activity.stdadd3="충북 청주시 청원구 1순환로 352";
+                activity.stdwatch3="-석";
+                activity.stdcall3="043-258-2001";
+                activity.stdcar3="40대";
+                activity.stdjongmok3="볼링 (여고부)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103751350KVC69B.jpg";
+
+                activity.stdname4="반도프라임볼링타운";
+                activity.stdadd4="충북 청주시 청원구 오창읍 과학산업2로 430";
+                activity.stdwatch4="-석";
+                activity.stdcall4="043-216-0929";
+                activity.stdcar4="100대";
+                activity.stdjongmok4="볼링 (해외동포)";
+                activity.baseImageURL4="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203104003863O3nqHQ.jpg";
+
+                activity.stdname5="오창볼링장";
+                activity.stdadd5="충북 청주시 청원구 오창읍 중심상업로 66-17";
+                activity.stdwatch5="-석";
+                activity.stdcall5="043-214-0753";
+                activity.stdcar5="40대";
+                activity.stdjongmok5="볼링 (대학부)";
+                activity.baseImageURL5="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110019190PBt6F9.jpg";
+
+                activity.stdname6="정석볼링장";
+                activity.stdadd6="충북 청주시 흥덕구 강서로 110";
+                activity.stdwatch6="-석";
+                activity.stdcall6="043-263-6000";
+                activity.stdcar6="-대";
+                activity.stdjongmok6="볼링 (남고부)";
+                activity.baseImageURL6="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110621556yFce0q.jpg";
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -883,6 +1046,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=14;
                 activity.jongmokName="롤러";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -900,6 +1064,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=3;
                 activity.jongmokName="핀수영";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -917,6 +1082,43 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=9;
                 activity.sogeaNum=42;
                 activity.jongmokName="근대5종";
+                activity.stdnum=4;
+
+
+
+                activity.stdname2="청주실내수영장";
+                activity.stdadd2="충북 청주시 서원구 흥덕로 61";
+                activity.stdwatch2="1,024석";
+                activity.stdcall2="043-270-8512";
+                activity.stdcar2="500대";
+                activity.stdjongmok2="근대5종 (수영)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203114900032CfIu7k.jpg";
+
+                activity.stdname3="충북스포츠센터";
+                activity.stdadd3="충북 청주시 서원구 흥덕로 37";
+                activity.stdwatch3="322석";
+                activity.stdcall3="043-201-2381";
+                activity.stdcar3="200대";
+                activity.stdjongmok3="근대5종 (펜싱)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203024745828COfkTJ.jpg";
+
+                activity.stdname4="국군체육부대 승마장";
+                activity.stdadd4="경북 문경시 호계면 상무로 101";
+                activity.stdwatch4="600석";
+                activity.stdcall4="054-559-6035";
+                activity.stdcar4="-대";
+                activity.stdjongmok4="근대5종 (승마)";
+                activity.baseImageURL4="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103915922GAEP7P.jpg";
+
+
+
+
+
+
+
+
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -934,6 +1136,17 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=41;
                 activity.jongmokName="농구";
+                activity.stdnum=2;
+
+                activity.stdname2="신흥고체육관";
+                activity.stdadd2="충북 청주시 청원구 율봉로 229";
+                activity.stdwatch2="800석";
+                activity.stdcall2="043-211-8801";
+                activity.stdcar2="-대";
+                activity.stdjongmok2="농구 (고등부)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203105548497hnPxmj.jpg";
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -951,6 +1164,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=5;
                 activity.sogeaNum=45;
                 activity.jongmokName="검도";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -968,6 +1182,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=23;
                 activity.jongmokName="스쿼시";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -985,6 +1200,25 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=35;
                 activity.jongmokName="배구";
+                activity.stdnum=3;
+
+                activity.stdname2="대원대학교민송체육관";
+                activity.stdadd2="충북 제천시 대학로 316";
+                activity.stdwatch2="150석";
+                activity.stdcall2="043-649-3161";
+                activity.stdcar2="200대";
+                activity.stdjongmok2="배구 (남고부)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103426836OAtFI4.jpg";
+
+                activity.stdname3="제천중학교체육관";
+                activity.stdadd3="충북 제천시 의병대로 29";
+                activity.stdwatch3="150석";
+                activity.stdcall3="043-646-5642";
+                activity.stdcar3="100대";
+                activity.stdjongmok3="배구 (여고·여일)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203111059631hcyrvx.jpg";
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -1002,6 +1236,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=29;
                 activity.jongmokName="자전거(MTB)";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1014,11 +1249,23 @@ public class jongmokMain extends Fragment{
                 activity.stdwatch="150석";
                 activity.stdcall="043-641-5601";
                 activity.stdcar="100대";
-                activity.stdjongmok="체조(리듬체조)";
+                activity.stdjongmok="체조(리듬체조,에어로빅)";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110905143sAu9RI.jpg";
                 activity.sogeaLastIndex=5;
                 activity.sogeaNum=10;
                 activity.jongmokName="체조";
+                activity.stdnum=2;
+
+                activity.stdname2="제천체육관";
+                activity.stdadd2="충북 제천시 숭의로 85";
+                activity.stdwatch2="3,300석";
+                activity.stdcall2="043-641-5573";
+                activity.stdcar2="200대";
+                activity.stdjongmok2="체조 (기계체조)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203111223411jexozT.jpg";
+
+
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -1036,6 +1283,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=2;
                 activity.jongmokName="하키";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1053,6 +1301,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=8;
                 activity.sogeaNum=4;
                 activity.jongmokName="펜싱";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1070,6 +1319,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=8;
                 activity.jongmokName="카누";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1087,6 +1337,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=5;
                 activity.sogeaNum=44;
                 activity.jongmokName="골프";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1104,6 +1355,24 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=29;
                 activity.jongmokName="자전거(트랙)";
+                activity.stdnum=3;
+
+                activity.stdname2="음성군 일원";
+                activity.stdadd2="음성군";
+                activity.stdwatch2="-석";
+                activity.stdcall2="043-871-2460";
+                activity.stdcar2="-대";
+                activity.stdjongmok2="자전거 (개인도로, 단체 전종별)";
+                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203114522902UYaOQR.jpg";
+
+                activity.stdname3="충주-음성간 도로";
+                activity.stdadd3="충주-음성";
+                activity.stdwatch3="-석";
+                activity.stdcall3="043-871-2460";
+                activity.stdcar3="-대";
+                activity.stdjongmok3="자전거 (도로독주 전종별)";
+                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025140706MOvkAH.jpg";
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -1121,6 +1390,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=5;
                 activity.sogeaNum=39;
                 activity.jongmokName="댄스스포츠";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1138,6 +1408,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=26;
                 activity.jongmokName="세팍타크로";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1155,7 +1426,15 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=20;
                 activity.jongmokName="소프트볼";
+                activity.stdnum=1;
+
+
+
+
+
                 activity.onFragmentChanged(53);
+
+
             }
         });
 
@@ -1172,6 +1451,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=43;
                 activity.jongmokName="궁도";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1189,6 +1469,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=40;
                 activity.jongmokName="당구";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1206,6 +1487,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=8;
                 activity.sogeaNum=21;
                 activity.jongmokName="씨름";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1223,6 +1505,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=7;
                 activity.jongmokName="탁구";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1240,6 +1523,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=17;
                 activity.jongmokName="우슈";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1257,6 +1541,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=6;
                 activity.sogeaNum=18;
                 activity.jongmokName="역도";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });
@@ -1274,6 +1559,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=22;
                 activity.jongmokName="승마";
+                activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
         });

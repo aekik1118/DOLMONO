@@ -26,6 +26,50 @@ public class MainActivity extends AppCompatActivity
     public static String jongmokName;
     public static int sogeaNum;
     public static int sogeaLastIndex;
+    public static int stdnum;
+
+    public static String baseImageURL2;
+    public static String stdname2;
+    public static String stdcall2;
+    public static String stdwatch2;
+    public static String stdcar2;
+    public static String stdjongmok2;
+    public static String stdadd2;
+
+    public static String baseImageURL3;
+    public static String stdname3;
+    public static String stdcall3;
+    public static String stdwatch3;
+    public static String stdcar3;
+    public static String stdjongmok3;
+    public static String stdadd3;
+
+    public static String baseImageURL4;
+    public static String stdname4;
+    public static String stdcall4;
+    public static String stdwatch4;
+    public static String stdcar4;
+    public static String stdjongmok4;
+    public static String stdadd4;
+
+    public static String baseImageURL5;
+    public static String stdname5;
+    public static String stdcall5;
+    public static String stdwatch5;
+    public static String stdcar5;
+    public static String stdjongmok5;
+    public static String stdadd5;
+
+    public static String baseImageURL6;
+    public static String stdname6;
+    public static String stdcall6;
+    public static String stdwatch6;
+    public static String stdcar6;
+    public static String stdjongmok6;
+    public static String stdadd6;
+
+    public static String baseImageURL7;
+
 
 
     @Override
