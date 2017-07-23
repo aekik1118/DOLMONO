@@ -4,19 +4,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_main_layout"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="메인 화면" />
+            android:icon="@drawable/ic_home"
+            android:title="메인 화면"
+            />
         <item
             android:id="@+id/nav_geayo_main_layout"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_about"
             android:title="대회 개요" />
         <item
             android:id="@+id/nav_cheerup_main_layout"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_volumeon"
             android:title="응원 하기" />
         <item
             android:id="@+id/nav_jongmok_main_layout"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_list"
             android:title="경기 종목" />
     </group>
 

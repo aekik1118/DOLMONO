@@ -11,27 +11,25 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
-    android:weightSum="1">
+    android:weightSum="2"
+    >
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="154dp"
-        android:layout_height="97dp"
-        android:layout_weight="0.70"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/em4" />
+        app:srcCompat="@drawable/em4"
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="돌모노(DOLMONO)"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:text="함께하는 충북 전국체전"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"/>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="aekik1118@naver.com" />
 
 </LinearLayout>

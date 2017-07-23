@@ -128,7 +128,7 @@ public class way extends Fragment
 
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(chungju));
 
-        googleMap.animateCamera(CameraUpdateFactory.zoomTo(11));
+        googleMap.animateCamera(CameraUpdateFactory.zoomTo(14));
     }
 
 

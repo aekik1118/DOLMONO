@@ -84,14 +84,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/buttonshape3"
+                android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
                 android:text="대회\n개요"
-                android:shadowColor="#000000"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
-                android:typeface="monospace"/>
+                android:typeface="monospace" />
 
             <ImageView
                 android:id="@+id/imageView3"
