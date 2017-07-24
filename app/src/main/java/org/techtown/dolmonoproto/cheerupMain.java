@@ -1,6 +1,5 @@
 package org.techtown.dolmonoproto;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +17,7 @@ import android.widget.EditText;
 public class cheerupMain extends Fragment{
     View v;
     String tmp;
-    Activity activity;
+    MainActivity activity;
 
     @Nullable
     @Override
@@ -28,9 +27,11 @@ public class cheerupMain extends Fragment{
         Button b12 = (Button)v.findViewById(R.id.button12);
         Button b13 = (Button)v.findViewById(R.id.button13);
 
-        activity = getActivity();
+        activity = (MainActivity)getActivity();
 
         activity.setTitle("응원 하기");
+
+
 
 
         final EditText et = (EditText)v.findViewById(R.id.editText);

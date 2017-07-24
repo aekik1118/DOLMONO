@@ -30,7 +30,6 @@ public class jongmokMain extends Fragment{
         activity.setTitle("경기 종목");
 
 
-
         ImageView iv530 = (ImageView)v.findViewById(R.id.imageView530);
         ImageView iv528 = (ImageView)v.findViewById(R.id.imageView528);
         ImageView iv529 = (ImageView)v.findViewById(R.id.imageView529);

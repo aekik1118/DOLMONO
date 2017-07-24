@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity
 
     public static String baseImageURL7;
 
+    public static NavigationView navigationView;
+
 
 
     @Override
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         backPressCloseHandler = new BackPressCloseHandler(this);
+        navigationView = (NavigationView)findViewById(R.id.nav_view);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -90,8 +93,8 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        navigationView.getMenu().getItem(0).setChecked(true);
         manager.beginTransaction().replace(R.id.content_main,new Main()).commit();
-
 
     }
 
@@ -103,6 +106,11 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
+            if(backStackEntryCount == 1)
+            {
+                navigationView.getMenu().getItem(0).setChecked(true);
+            }
+
             if(backStackEntryCount == 0)
             {
                 backPressCloseHandler.onBackPressed();
@@ -171,11 +179,17 @@ public class MainActivity extends AppCompatActivity
 
 
     public void onFragmentChanged(int index){
+
+
+
         if(index == 2){
+            navigationView.getMenu().getItem(1).setChecked(true);
             manager.beginTransaction().replace(R.id.content_main,new geayoMain()).addToBackStack(null).commit();
         }else if(index == 4){
+            navigationView.getMenu().getItem(2).setChecked(true);
             manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).addToBackStack(null).commit();
         }else if(index == 5){
+            navigationView.getMenu().getItem(3).setChecked(true);
             manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
         }else if(index == 9){
             manager.beginTransaction().replace(R.id.content_main,new gaeyo()).addToBackStack(null).commit();

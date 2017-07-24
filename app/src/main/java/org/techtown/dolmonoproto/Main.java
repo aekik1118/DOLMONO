@@ -81,15 +81,6 @@ public class Main extends Fragment{
         }
 
 
-
-
-
-
-
-
-
-
-
         return v;
     }
 
