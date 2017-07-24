@@ -29,7 +29,7 @@ public class opening extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.openning_layout);
 
-        handler.postDelayed(r,2000);
+        handler.postDelayed(r,1000);
 
 
     }
