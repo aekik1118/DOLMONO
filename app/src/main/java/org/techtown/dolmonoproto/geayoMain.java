@@ -25,7 +25,7 @@ public class geayoMain extends Fragment{
 
 
         activity = (MainActivity) getActivity();
-        activity.setTitle("대회 개요");
+        activity.setTitle("대회 소개");
 
 
         Button button9 = (Button)v.findViewById(R.id.button9);

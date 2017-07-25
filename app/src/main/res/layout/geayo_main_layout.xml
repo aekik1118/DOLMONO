@@ -5,132 +5,258 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="0dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:elevation="0dp"
     android:orientation="vertical"
     android:padding="0dp"
-    android:weightSum="4">
+    android:weightSum="5">
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:adjustViewBounds="true"
-        android:weightSum="1"
-        app:srcCompat="@drawable/header" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1.2"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.09" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_weight="0.8"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/header" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="2.5"
         android:orientation="vertical"
-        android:weightSum="2">
+        android:weightSum="3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:weightSum="4">
+            android:layout_weight="0.6"
+            android:weightSum="2"
+            android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/imageView15"
+            <TextView
+                android:id="@+id/textView99"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/geayo" />
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape10"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
-                android:text="대회\n개요"
+                android:text="대회 개요"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:typeface="monospace" />
 
-            <ImageView
-                android:id="@+id/imageView2"
+            <TextView
+                android:id="@+id/textView100"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/sun2" />
+                android:layout_weight="0.2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape2"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape8"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
                 android:text="인사말"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:weightSum="4">
+            android:layout_weight="0.1"
+            android:orientation="vertical"></LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView16"
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/textView26"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/sun" />
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape3"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape9"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
                 android:text="상징물"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:typeface="monospace" />
 
-            <ImageView
-                android:id="@+id/imageView8"
+            <TextView
+                android:id="@+id/textView32"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/life" />
+                android:layout_weight="0.2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape4"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape11"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
-                android:text="찾아\n오시는\n길"
+                android:text="찾아오시는 길"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:typeface="monospace" />
 
         </LinearLayout>
@@ -138,13 +264,28 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageView9"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="0dp"
-        android:layout_weight="1.2"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_weight="1.25"
         android:adjustViewBounds="true"
+        android:cropToPadding="false"
         android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingEnd="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:srcCompat="@drawable/footer2" />
+
 
 </LinearLayout>
