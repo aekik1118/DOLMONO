@@ -45,12 +45,65 @@
         android:layout_marginTop="0dp"
         android:layout_weight="2"
         android:orientation="vertical"
-        android:weightSum="2"
+        android:weightSum="4"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.93"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/point" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.93"
+                android:gravity="center"
+                android:text="D-112"
+                android:textColor="@color/colorPrimary"
+                android:textSize="37sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.93"
+                app:srcCompat="@drawable/life2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical"></LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout2"
@@ -62,56 +115,49 @@
             android:layout_marginRight="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.9"
             android:orientation="horizontal"
-            android:weightSum="4"
+            android:weightSum="2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView8">
 
-            <ImageView
-                android:id="@+id/imageView4"
+            <TextView
+                android:id="@+id/textView12"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/geayo" />
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape3"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape8"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
-                android:text="대회\n개요"
+                android:text="대회 개요"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:typeface="monospace" />
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/point" />
-
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView31"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="D-112"
-                android:textColor="@color/colorPrimary"
-                android:textSize="24sp" />
+                android:layout_weight="0.2" />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical"></LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -124,9 +170,9 @@
             android:layout_marginRight="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.9"
             android:orientation="horizontal"
-            android:weightSum="4"
+            android:weightSum="2"
             app:layout_constraintBottom_toTopOf="@+id/imageView2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -134,51 +180,76 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
             app:layout_constraintVertical_bias="0.0">
 
-            <ImageView
-                android:id="@+id/imageView5"
+            <TextView
+                android:id="@+id/textView26"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/cheerup" />
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape2"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape9"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
-                android:text="응원\n하기"
+                android:text="응원하기"
                 android:textColor="#FFFFFF"
-                android:typeface="monospace"
-                android:textSize="20sp"/>
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
 
-            <ImageView
-                android:id="@+id/imageView6"
+            <TextView
+                android:id="@+id/textView32"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                app:srcCompat="@drawable/jongmok" />
+                android:layout_weight="0.2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/buttonshape4"
+                android:layout_weight="1.6"
+                android:background="@drawable/buttonshape11"
                 android:shadowColor="#000000"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="5"
+                android:text="경기 종목"
                 android:textColor="#FFFFFF"
-                android:text="경기\n종목"
-                android:textSize="20sp"
-                android:typeface="monospace"/>
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
 
         </LinearLayout>
 
