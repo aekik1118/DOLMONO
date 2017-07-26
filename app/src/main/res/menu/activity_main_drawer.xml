@@ -10,7 +10,7 @@
         <item
             android:id="@+id/nav_geayo_main_layout"
             android:icon="@drawable/ic_about"
-            android:title="대회 개요" />
+            android:title="대회 소개" />
         <item
             android:id="@+id/nav_cheerup_main_layout"
             android:icon="@drawable/ic_volumeon"

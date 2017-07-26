@@ -272,7 +272,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginStart="0dp"
-        android:layout_weight="1.25"
+        android:layout_weight="1.3"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:padding="0dp"
