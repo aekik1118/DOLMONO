@@ -24,10 +24,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/holo_red_light"
+                android:background="@android:color/background_light"
                 android:gravity="center"
+                android:minHeight="179dp"
                 android:text="충주"
-                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -46,13 +47,19 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button511"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="0.93"
 
-                    android:background="@drawable/buttonshape3"
+                    android:background="@drawable/buttonshape10"
 
                     android:shadowColor="#000000"
                     android:shadowDx="0"
@@ -66,12 +73,18 @@
 
                     />
 
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button58"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape2"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
 
                     android:shadowColor="#000000"
                     android:shadowDx="0"
@@ -82,12 +95,18 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button57"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape4"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
 
                     android:shadowColor="#000000"
                     android:shadowDx="0"
@@ -97,6 +116,13 @@
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                     />
 
             </LinearLayout>
 
@@ -426,12 +452,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/holo_orange_light"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="청주"
-                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -441,12 +474,18 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button11"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape2"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -457,12 +496,18 @@
 
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape4"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -472,12 +517,18 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
 
                     android:shadowColor="#000000"
                     android:shadowDx="0"
@@ -487,6 +538,19 @@
                     android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
 
             </LinearLayout>
 
@@ -818,14 +882,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@color/green_light_light"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="제천"
-                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -835,12 +905,18 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button23"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape4"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -850,12 +926,18 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button24"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -865,12 +947,18 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button25"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape3"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -880,8 +968,21 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -971,14 +1072,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/holo_blue_bright"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="진천"
-                android:textStyle="bold"
-                android:textColor="@color/common_google_signin_btn_text_dark_default"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -988,13 +1095,20 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    />
+
                 <Button
                     android:id="@+id/button1023"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="0.93"
 
-                    android:background="@drawable/buttonshape"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -1004,12 +1118,19 @@
                     android:textColor="#FFFFFF"
                     android:textSize="25sp" />
 
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                    />
+
                 <Button
                     android:id="@+id/button1024"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape3"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -1019,12 +1140,19 @@
                     android:textColor="#FFFFFF"
                     android:textSize="25sp" />
 
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05"
+                     />
+
                 <Button
                     android:id="@+id/button1025"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/buttonshape2"
+                    android:background="@drawable/buttonshape9"
 
                     android:shadowColor="#000000"
                     android:shadowDx="0"
@@ -1035,8 +1163,21 @@
                     android:textColor="#FFFFFF"
                     android:textSize="25sp" />
 
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05" />
+
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1126,14 +1267,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/holo_red_light"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="음성"
-                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1143,12 +1290,18 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1123"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape3"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -1158,12 +1311,18 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1124"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape2"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -1173,12 +1332,18 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1125"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@drawable/buttonshape4"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
@@ -1188,8 +1353,21 @@
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1274,18 +1452,25 @@
             </LinearLayout>
 
 
-
             <TextView
                 android:id="@+id/textView1226"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="보은"
-                android:textStyle="bold"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1295,54 +1480,85 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1223"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:text="숙박"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1224"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="맛집"
-
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
+
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1225"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="관광지"
-                    android:textStyle="bold"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1432,12 +1648,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="괴산"
-                android:textStyle="bold"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1447,55 +1671,85 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1323"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:text="숙박"
-
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
+
                     android:shadowDx="0"
                     android:shadowDy="0"
                     android:shadowRadius="5"
-                    />
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1324"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="맛집"
-                    android:textStyle="bold"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1325"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="관광지"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1583,12 +1837,20 @@
                 android:id="@+id/textView1426"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:textStyle="bold"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="증평"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1598,53 +1860,84 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1423"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:text="숙박"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1424"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1425"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="관광지"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1733,12 +2026,20 @@
                 android:id="@+id/textView1526"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:textStyle="bold"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="단양"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1748,53 +2049,84 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1523"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:text="숙박"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1524"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1525"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="관광지"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1882,12 +2214,20 @@
                 android:id="@+id/textView1626"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:textStyle="bold"
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="옥천"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1897,53 +2237,84 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1623"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:text="숙박"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1624"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="맛집"
-                    android:textStyle="bold"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1625"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="관광지"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -2032,13 +2403,21 @@
                 android:id="@+id/textView1726"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:textStyle="bold"
+                android:background="@android:color/background_light"
 
                 android:gravity="center"
                 android:text="영동"
-                android:textSize="40sp" />
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -2048,53 +2427,84 @@
                 android:weightSum="3">
 
 
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
+
                 <Button
                     android:id="@+id/button1723"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:text="숙박"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape6"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape10"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="숙박"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1724"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textStyle="bold"
-                    android:text="맛집"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape5"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape8"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="맛집"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
                 <Button
                     android:id="@+id/button1725"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="관광지"
-                    android:textStyle="bold"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
-                    android:background="@drawable/buttonshape7"
+                    android:layout_weight="0.93"
+                    android:background="@drawable/buttonshape9"
                     android:shadowColor="#000000"
                     android:shadowDx="0"
                     android:shadowDy="0"
-                    android:shadowRadius="5"/>
+                    android:shadowRadius="5"
+                    android:text="관광지"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.05" />
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -2183,10 +2593,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
+                android:background="@android:color/background_light"
                 android:gravity="center"
                 android:text="타 시도"
+                android:textColor="@color/colorPrimary"
                 android:textSize="40sp" />
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
