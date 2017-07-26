@@ -140,6 +140,8 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            manager.beginTransaction().replace(R.id.content_main,new dolmonoInfo()).addToBackStack(null).commit();
             return true;
         }
 
