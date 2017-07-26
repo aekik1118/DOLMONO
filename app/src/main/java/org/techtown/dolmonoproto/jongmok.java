@@ -49,9 +49,15 @@ public class jongmok extends Fragment{
     TextView tvName5,tvCall5,tvAdd5,tvWatch5,tvJongmok5,tvCar5;
     TextView tvName6,tvCall6,tvAdd6,tvWatch6,tvJongmok6,tvCar6;
 
+    TextView tv8;
+
 
 
     private ProgressDialog progressDialog;
+
+
+
+
 
     @Nullable
     @Override
@@ -120,6 +126,7 @@ public class jongmok extends Fragment{
         tvJongmok6 = (TextView)v.findViewById(R.id.textViewJ514);
 
         iv7 = (ImageView) v.findViewById(R.id.imageView19);
+        tv8 = (TextView) v.findViewById(R.id.textView8);
 
 
         stdnum = activity.stdnum;
@@ -198,6 +205,8 @@ public class jongmok extends Fragment{
         baseImageURL5 = activity.baseImageURL5;
         baseImageURL6 = activity.baseImageURL6;
         baseImageURL7 = activity.baseImageURL7;
+
+
 
         Thread mThread = new Thread()
         {
@@ -304,6 +313,7 @@ public class jongmok extends Fragment{
             tvCar.setText(activity.stdcar);
             tvCall.setText(activity.stdcall);
             tvJongmok.setText(activity.stdjongmok);
+            tv8.setText(activity.jongmok1);
 
 
 

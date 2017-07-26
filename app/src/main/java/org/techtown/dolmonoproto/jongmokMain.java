@@ -476,6 +476,18 @@ public class jongmokMain extends Fragment{
                 activity.jongmokName="육상";
                 activity.stdnum=3;
 
+                activity.jongmok1="트랙/필드 \n" +
+                        "22(일), 23(월), 24(화), 25(수)\n" +
+                        "\n" +
+                        "마라톤\n" +
+                        "22(일)\n" +
+                        "\n" +
+                        "하프마라톤, 경보\n" +
+                        "24(화)\n" +
+                        "\n" +
+                        "10KM\n" +
+                        "25(수)";
+
 
                 activity.stdname2="충주일원";
                 activity.stdadd2="충북 충주시 호암동 626번지";
@@ -514,6 +526,15 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=9;
                 activity.jongmokName="축구";
                 activity.stdnum=7;
+
+                activity.jongmok1="남고부, 여고부, 여대부, 남일부\n" +
+                        "20(금), 22(일), 24(화), 26(목)\n" +
+                        "\n" +
+                        "남대부\n" +
+                        "19(목), 21(토), 23(월), 24(화), 26(목)\n" +
+                        "\n" +
+                        "해외동포\n" +
+                        "21(토), 22(일), 23(월), 24(화), 25(수)";
 
 
                 activity.stdname2="수안보생활체육공원축구장";
@@ -576,6 +597,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=32;
                 activity.jongmokName="복싱";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수), 26(목)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -594,6 +616,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=5;
                 activity.jongmokName="테니스";
                 activity.stdnum=1;
+                activity.jongmok1="20(금), 21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -612,6 +635,17 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=37;
                 activity.jongmokName="레슬링";
                 activity.stdnum=1;
+                activity.jongmok1="그레고로만형\n" +
+                        "20(금)(계체), 21(토), 22(일), 23(월)\n" +
+                        "\n" +
+                        "자유형\n" +
+                        "23(월)(계체), 24(화), 25(수), 26(목)\n" +
+                        "\n" +
+                        "여고부\n" +
+                        "21(토)(계체), 22(일), 23(월)\n" +
+                        "\n" +
+                        "여일부\n" +
+                        "22(일)(계체), 23(월), 24(화)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -630,6 +664,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=34;
                 activity.jongmokName="배드민턴";
                 activity.stdnum=1;
+                activity.jongmok1="미정";
                 activity.onFragmentChanged(53);
             }
         });
@@ -648,6 +683,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=46;
                 activity.jongmokName="태권도";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -666,6 +702,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=12;
                 activity.jongmokName="조정";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일), 23(월)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -684,6 +721,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=27;
                 activity.jongmokName="세일링";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -702,6 +740,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=33;
                 activity.jongmokName="보디빌딩";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -720,6 +759,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=36;
                 activity.jongmokName="바둑";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -738,6 +778,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=28;
                 activity.jongmokName="산악";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -756,6 +797,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=6;
                 activity.jongmokName="택견";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -774,6 +816,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=25;
                 activity.jongmokName="수상스키";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -792,6 +835,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=11;
                 activity.jongmokName="철인3종";
                 activity.stdnum=1;
+                activity.jongmok1="20(금)(회의), 21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -810,6 +854,12 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=24;
                 activity.jongmokName="수영";
                 activity.stdnum=2;
+                activity.jongmok1="경영, 수구\n" +
+                        "21(토), 22(일), 23(월), 24(화), 25(수), 26(목)\n" +
+                        "다이빙\n" +
+                        "21(토), 22(일), 23(월)\n" +
+                        "싱크로\n" +
+                        "24(화)";
 
                 activity.stdname2="충북학생수영장";
                 activity.stdadd2="충북 청주시 청원구 공항로59번길 33";
@@ -839,6 +889,8 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=20;
                 activity.jongmokName="야구";
                 activity.stdnum=3;
+
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수), 26(목)";
 
 
                 activity.stdname2="세광고야구장";
@@ -878,6 +930,9 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=13;
                 activity.jongmokName="정구";
                 activity.stdnum=1;
+
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수)";
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -896,6 +951,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=1;
                 activity.jongmokName="핸드볼";
                 activity.stdnum=1;
+                activity.jongmok1="20(금), 21(토), 22(일), 23(월), 24(화), 25(수), 26(목)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -914,6 +970,12 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=38;
                 activity.jongmokName="럭비";
                 activity.stdnum=1;
+                activity.jongmok1="고등부\n" +
+                        "21(토), 23(월), 25(수), 26(목)\n" +
+                        "\n" +
+                        "대학, 일반\n" +
+                        "20(금), 22(일), 24(화), 26(목)";
+
                 activity.onFragmentChanged(53);
             }
         });
@@ -932,6 +994,20 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=16;
                 activity.jongmokName="유도";
                 activity.stdnum=1;
+                activity.jongmok1="남일부\n" +
+                        "21(토)\n" +
+                        "\n" +
+                        "여일부\n" +
+                        "22(일)\n" +
+                        "\n" +
+                        "여고부\n" +
+                        "23(월)\n" +
+                        "\n" +
+                        "남고부\n" +
+                        "24(화)\n" +
+                        "\n" +
+                        "대학부\n" +
+                        "25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -950,6 +1026,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=19;
                 activity.jongmokName="양궁";
                 activity.stdnum=1;
+                activity.jongmok1="20(금)(연습), 21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -968,6 +1045,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=30;
                 activity.jongmokName="사격";
                 activity.stdnum=1;
+                activity.jongmok1="20(금), 21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -986,6 +1064,11 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=31;
                 activity.jongmokName="볼링";
                 activity.stdnum=6;
+                activity.jongmok1="남고, 여고, 남일, 여일, 해외동포\n" +
+                        "20(금)(연습), 21(토), 22(일), 23(월), 24(화), 25(수)\n" +
+                        "\n" +
+                        "대학부\n" +
+                        "21(토)(연습), 22(일), 23(월), 24(화), 25(수)";
 
                 activity.stdname2="라이프볼링장";
                 activity.stdadd2="충북 청주시 흥덕구 월명로 196";
@@ -1046,6 +1129,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=14;
                 activity.jongmokName="롤러";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일), 23(월)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1064,6 +1148,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=3;
                 activity.jongmokName="핀수영";
                 activity.stdnum=1;
+                activity.jongmok1="24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1080,6 +1165,11 @@ public class jongmokMain extends Fragment{
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115753152lvGOhz.jpg";
                 activity.sogeaLastIndex=9;
                 activity.sogeaNum=42;
+                activity.jongmok1="펜싱, 수영, 복합\n" +
+                        "20(금),21(토),22(일),23(월)\n" +
+                        "\n" +
+                        "승마\n" +
+                        "25(수)";
                 activity.jongmokName="근대5종";
                 activity.stdnum=4;
 
@@ -1135,6 +1225,11 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=41;
                 activity.jongmokName="농구";
+                activity.jongmok1="남고부, 일반부\n" +
+                        "21(토), 22(일), 23(월), 24(화), 25(수), 26(목)\n" +
+                        "\n" +
+                        "여고부\n" +
+                        "미정";
                 activity.stdnum=2;
 
                 activity.stdname2="신흥고체육관";
@@ -1164,6 +1259,17 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=45;
                 activity.jongmokName="검도";
                 activity.stdnum=1;
+                activity.jongmok1="고등부\n" +
+                        "22(일)\n" +
+                        "\n" +
+                        "대학부\n" +
+                        "23(월)\n" +
+                        "\n" +
+                        "일반부\n" +
+                        "24(화)\n" +
+                        "\n" +
+                        "여자부(시범)\n" +
+                        "21(토)\n";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1182,6 +1288,14 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=23;
                 activity.jongmokName="스쿼시";
                 activity.stdnum=1;
+                activity.jongmok1="개인\n" +
+                        "21(토), 22(일)\n" +
+                        "\n" +
+                        "단체\n" +
+                        "23(월), 24(화)\n" +
+                        "\n" +
+                        "해외동포\n" +
+                        "22(일), 23(월)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1199,6 +1313,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=35;
                 activity.jongmokName="배구";
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.stdnum=3;
 
                 activity.stdname2="대원대학교민송체육관";
@@ -1236,6 +1351,8 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=29;
                 activity.jongmokName="자전거(MTB)";
                 activity.stdnum=1;
+                activity.jongmok1="MTB\n" +
+                        "21(토)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1254,6 +1371,14 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=10;
                 activity.jongmokName="체조";
                 activity.stdnum=2;
+                activity.jongmok1="기계체조\n" +
+                        "23(월), 24(화), 25(수)\n" +
+                        "\n" +
+                        "리듬체조\n" +
+                        "22(일)\n" +
+                        "\n" +
+                        "에어로빅\n" +
+                        "20(금), 21(토)";
 
                 activity.stdname2="제천체육관";
                 activity.stdadd2="충북 제천시 숭의로 85";
@@ -1283,6 +1408,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=2;
                 activity.jongmokName="하키";
                 activity.stdnum=1;
+                activity.jongmok1="미정";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1300,6 +1426,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=8;
                 activity.sogeaNum=4;
                 activity.jongmokName="펜싱";
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
@@ -1319,6 +1446,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=8;
                 activity.jongmokName="카누";
                 activity.stdnum=1;
+                activity.jongmok1="미정";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1337,6 +1465,11 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=44;
                 activity.jongmokName="골프";
                 activity.stdnum=1;
+                activity.jongmok1="전종별\n" +
+                        "22(일)(연습), 23(월), 24(화), 25(수), 26(목)\n" +
+                        "\n" +
+                        "해외동포\n" +
+                        "미정";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1355,7 +1488,11 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=29;
                 activity.jongmokName="자전거(트랙)";
                 activity.stdnum=3;
-
+                activity.jongmok1="트랙\n" +
+                        "20(금), 21(토), 22(일), 23(월)\n" +
+                        "\n" +
+                        "도로\n" +
+                        "24(화), 25(수), 26(목)";
                 activity.stdname2="음성군 일원";
                 activity.stdadd2="음성군";
                 activity.stdwatch2="-석";
@@ -1390,6 +1527,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=39;
                 activity.jongmokName="댄스스포츠";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1407,6 +1545,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaLastIndex=7;
                 activity.sogeaNum=26;
                 activity.jongmokName="세팍타크로";
+                activity.jongmok1="21(토), 22(일), 23(월)";
                 activity.stdnum=1;
                 activity.onFragmentChanged(53);
             }
@@ -1426,7 +1565,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=20;
                 activity.jongmokName="소프트볼";
                 activity.stdnum=1;
-
+                activity.jongmok1="21(토), 22(일), 23(월), 24(화), 25(수), 26(목)";
 
 
 
@@ -1469,6 +1608,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=40;
                 activity.jongmokName="당구";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일), 23(월)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1481,12 +1621,20 @@ public class jongmokMain extends Fragment{
                 activity.stdwatch="1,370석";
                 activity.stdcall="043-835-3663";
                 activity.stdcar="100대";
-                activity.stdjongmok="당구(전종별)";
+                activity.stdjongmok="씨름";
                 activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203112203927NGzriq.jpg";
                 activity.sogeaLastIndex=8;
                 activity.sogeaNum=21;
                 activity.jongmokName="씨름";
                 activity.stdnum=1;
+                activity.jongmok1="고등부\n" +
+                        "20(금)(계체), 21(토), 22(일)\n" +
+                        "\n" +
+                        "대학부\n" +
+                        "21(토)(계체), 22(일), 23(월)\n" +
+                        "\n" +
+                        "일반부\n" +
+                        "22(일)(계체), 23(월), 24(화)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1505,6 +1653,11 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=7;
                 activity.jongmokName="탁구";
                 activity.stdnum=1;
+                activity.jongmok1="전종별\n" +
+                        "21(토), 22(일), 23(월), 24(화), 25(수)\n" +
+                        "\n" +
+                        "해외동포\n" +
+                        "22(일)(회의), 23(월), 24(화)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1523,6 +1676,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=17;
                 activity.jongmokName="우슈";
                 activity.stdnum=1;
+                activity.jongmok1="21(토)(계체), 22(일), 23(월), 24(화)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1541,6 +1695,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=18;
                 activity.jongmokName="역도";
                 activity.stdnum=1;
+                activity.jongmok1="20(금), 21(토), 22(일), 23(월), 24(화), 25(수)";
                 activity.onFragmentChanged(53);
             }
         });
@@ -1559,6 +1714,7 @@ public class jongmokMain extends Fragment{
                 activity.sogeaNum=22;
                 activity.jongmokName="승마";
                 activity.stdnum=1;
+                activity.jongmok1="21(토), 22(일)";
                 activity.onFragmentChanged(53);
             }
         });

@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity
     public static int sogeaLastIndex;
     public static int stdnum;
 
+    public static String jongmok1;
+
     public static String baseImageURL2;
     public static String stdname2;
     public static String stdcall2;
