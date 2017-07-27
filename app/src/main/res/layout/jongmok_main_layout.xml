@@ -23,12 +23,10 @@
                 android:id="@+id/textView56"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-
                 android:background="@drawable/border"
-                android:gravity="center"
+                android:gravity="center_horizontal"
                 android:minHeight="179dp"
                 android:text="충주"
-
                 android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -454,7 +452,7 @@
                 android:layout_height="50sp"
 
                 android:background="@drawable/border"
-                android:gravity="center"
+                android:gravity="center_horizontal"
                 android:text="청주"
                 android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
