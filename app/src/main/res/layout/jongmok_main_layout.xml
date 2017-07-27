@@ -24,10 +24,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:minHeight="179dp"
                 android:text="충주"
+
                 android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -452,7 +453,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="청주"
                 android:textColor="@color/colorPrimary"
@@ -882,7 +883,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="제천"
                 android:textColor="@color/colorPrimary"
@@ -1072,7 +1073,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="진천"
                 android:textColor="@color/colorPrimary"
@@ -1267,7 +1268,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="음성"
                 android:textColor="@color/colorPrimary"
@@ -1457,7 +1458,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="보은"
                 android:textColor="@color/colorPrimary"
@@ -1648,7 +1649,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="괴산"
                 android:textColor="@color/colorPrimary"
@@ -1837,7 +1838,7 @@
                 android:id="@+id/textView1426"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="증평"
                 android:textColor="@color/colorPrimary"
@@ -2026,7 +2027,7 @@
                 android:id="@+id/textView1526"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="단양"
                 android:textColor="@color/colorPrimary"
@@ -2214,7 +2215,7 @@
                 android:id="@+id/textView1626"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="옥천"
                 android:textColor="@color/colorPrimary"
@@ -2403,7 +2404,7 @@
                 android:id="@+id/textView1726"
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
 
                 android:gravity="center"
                 android:text="영동"
@@ -2593,10 +2594,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50sp"
 
-                android:background="@android:color/background_light"
+                android:background="@drawable/border"
                 android:gravity="center"
                 android:text="타 시도"
                 android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
                 android:textSize="40sp" />
 
 
