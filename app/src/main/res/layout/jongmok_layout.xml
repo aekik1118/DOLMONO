@@ -42,13 +42,12 @@
 
                 <Button
                     android:id="@+id/button15"
+                    style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
+
                     android:layout_weight="1"
-                    android:background="@color/grey200"
                     android:padding="5dp"
                     android:text="이전"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
@@ -57,13 +56,13 @@
 
                 <Button
                     android:id="@+id/button14"
+                    style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
-                    android:layout_marginEnd="5dp"
-                    android:layout_marginLeft="5dp"
+
                     android:layout_weight="1"
-                    android:background="@color/grey200"
+                    android:elevation="0dp"
                     android:padding="5dp"
                     android:text="다음"
                     android:textColor="@color/common_google_signin_btn_text_dark_default"
