@@ -80,7 +80,7 @@
                 android:layout_weight="0.93"
                 android:gravity="center"
                 android:text="D-112"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#036eb8"
                 android:textSize="37sp"
                 android:textStyle="bold"
                 android:typeface="monospace" />
