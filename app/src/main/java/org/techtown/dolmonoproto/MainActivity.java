@@ -219,6 +219,10 @@ public class MainActivity extends AppCompatActivity
         {
             manager.beginTransaction().replace(R.id.content_main,new jongmok19()).addToBackStack(null).commit();
         }
+        else if(index == 1020)
+        {
+            manager.beginTransaction().replace(R.id.content_main,new jongmok20()).addToBackStack(null).commit();
+        }
 
     }
 
