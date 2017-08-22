@@ -23,7 +23,7 @@ public class jongmok22 extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        v = inflater.inflate(R.layout.jongmok_main_layout, container, false);
+        v = inflater.inflate(R.layout.jongmok_22, container, false);
 
         activity = (MainActivity) getActivity();
 
@@ -1134,24 +1134,7 @@ public class jongmok22 extends Fragment{
             }
         });
 
-        iv329.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="충북 학생수영장";
-                activity.stdadd="충북 청주시 청원구 공항로 59번길 33";
-                activity.stdwatch="530석";
-                activity.stdcall="043-254-7251";
-                activity.stdcar="200대";
-                activity.stdjongmok="핀수영(전종별)";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203025040363onFRvP.jpg";
-                activity.sogeaLastIndex=7;
-                activity.sogeaNum=3;
-                activity.jongmokName="핀수영";
-                activity.stdnum=1;
-                activity.jongmok1="24(화), 25(수)";
-                activity.onFragmentChanged(53);
-            }
-        });
+
 
         iv324.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1337,25 +1320,7 @@ public class jongmok22 extends Fragment{
             }
         });
 
-        iv928.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="제천 산악자전거 경기장";
-                activity.stdadd="충북 제천시 송학면 명암로 1031";
-                activity.stdwatch="150석";
-                activity.stdcall="043-641-5573";
-                activity.stdcar="50대";
-                activity.stdjongmok="자전거(MTB전종별)";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110748655QrLDyH.jpg";
-                activity.sogeaLastIndex=7;
-                activity.sogeaNum=29;
-                activity.jongmokName="자전거(MTB)";
-                activity.stdnum=1;
-                activity.jongmok1="MTB\n" +
-                        "21(토)";
-                activity.onFragmentChanged(53);
-            }
-        });
+
 
         iv929.setOnClickListener(new View.OnClickListener() {
             @Override
