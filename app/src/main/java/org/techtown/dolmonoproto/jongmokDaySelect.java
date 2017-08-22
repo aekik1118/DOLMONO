@@ -88,6 +88,13 @@ public class jongmokDaySelect extends Fragment {
             }
         });
 
+        button17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.onFragmentChanged(1026);
+            }
+        });
+
 
 
 
