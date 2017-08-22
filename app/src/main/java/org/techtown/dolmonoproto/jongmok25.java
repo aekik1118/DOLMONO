@@ -15,7 +15,7 @@ import android.widget.ImageView;
  * Created by aekik on 2017-06-26.
  */
 
-public class jongmok24 extends Fragment{
+public class jongmok25 extends Fragment{
     View v;
     MainActivity activity;
 
@@ -23,11 +23,11 @@ public class jongmok24 extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        v = inflater.inflate(R.layout.jongmok_24, container, false);
+        v = inflater.inflate(R.layout.jongmok_25, container, false);
 
         activity = (MainActivity) getActivity();
 
-        activity.setTitle("10.24 (화)");
+        activity.setTitle("10.25 (수)");
 
 
         ImageView iv530 = (ImageView)v.findViewById(R.id.imageView530);
@@ -295,38 +295,6 @@ public class jongmok24 extends Fragment{
         });
 
 
-        Button bt1423 = (Button)v.findViewById(R.id.button1423);
-
-        bt1423.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=226&mod=&scode=00000002&code8=%EC%A6%9D%ED%8F%89%EA%B5%B0&kwd="));
-                startActivity(intent);
-            }
-        });
-
-        Button bt1424 = (Button)v.findViewById(R.id.button1424);
-
-        bt1424.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=225&mod=&scode=00000002&code8=%EC%A6%9D%ED%8F%89%EA%B5%B0&kwd="));
-                startActivity(intent);
-            }
-        });
-
-        Button bt1425 = (Button)v.findViewById(R.id.button1425);
-
-        bt1425.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=222&mod=&scode=00000002&code8=%EC%A6%9D%ED%8F%89%EA%B5%B0&kwd="));
-                startActivity(intent);
-            }
-        });
 
         Button bt1523 = (Button)v.findViewById(R.id.button1523);
 
@@ -361,38 +329,6 @@ public class jongmok24 extends Fragment{
             }
         });
 
-        Button bt1623 = (Button)v.findViewById(R.id.button1623);
-
-        bt1623.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=226&mod=&scode=00000002&code6=%EC%98%A5%EC%B2%9C%EA%B5%B0&kwd="));
-                startActivity(intent);
-            }
-        });
-
-        Button bt1624 = (Button)v.findViewById(R.id.button1624);
-
-        bt1624.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=225&mod=&scode=00000002&code6=%EC%98%A5%EC%B2%9C%EA%B5%B0&kwd="));
-                startActivity(intent);
-            }
-        });
-
-        Button bt1625 = (Button)v.findViewById(R.id.button1625);
-
-        bt1625.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://tour.chungbuk.go.kr/home/sub.php?menukey=222&mod=&scode=00000002&code6=%EC%98%A5%EC%B2%9C%EA%B5%B0&kwd="));
-                startActivity(intent);
-            }
-        });
 
         Button bt1723 = (Button)v.findViewById(R.id.button1723);
 
@@ -959,64 +895,11 @@ public class jongmok24 extends Fragment{
 
 
 
-        iv324.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="청주 종합경기장";
-                activity.stdadd="충북 청주시 서원구 사직대로 229";
-                activity.stdwatch="16,280석";
-                activity.stdcall="043-201-2381";
-                activity.stdcar="500대";
-                activity.stdjongmok="근대5종(복합(육상+사격))";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115753152lvGOhz.jpg";
-                activity.sogeaLastIndex=9;
-                activity.sogeaNum=42;
-                activity.jongmok1="펜싱, 수영, 복합\n" +
-                        "20(금),21(토),22(일),23(월)\n" +
-                        "\n" +
-                        "승마\n" +
-                        "25(수)";
-                activity.jongmokName="근대5종";
-                activity.stdnum=4;
-
-
-
-                activity.stdname2="청주실내수영장";
-                activity.stdadd2="충북 청주시 서원구 흥덕로 61";
-                activity.stdwatch2="1,024석";
-                activity.stdcall2="043-270-8512";
-                activity.stdcar2="500대";
-                activity.stdjongmok2="근대5종 (수영)";
-                activity.baseImageURL2="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203114900032CfIu7k.jpg";
-
-                activity.stdname3="충북스포츠센터";
-                activity.stdadd3="충북 청주시 서원구 흥덕로 37";
-                activity.stdwatch3="322석";
-                activity.stdcall3="043-201-2381";
-                activity.stdcar3="200대";
-                activity.stdjongmok3="근대5종 (펜싱)";
-                activity.baseImageURL3="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203024745828COfkTJ.jpg";
-
-                activity.stdname4="국군체육부대 승마장";
-                activity.stdadd4="경북 문경시 호계면 상무로 101";
-                activity.stdwatch4="600석";
-                activity.stdcall4="054-559-6035";
-                activity.stdcar4="-대";
-                activity.stdjongmok4="근대5종 (승마)";
-                activity.baseImageURL4="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203103915922GAEP7P.jpg";
 
 
 
 
 
-
-
-
-
-
-                activity.onFragmentChanged(53);
-            }
-        });
 
         iv430.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1051,60 +934,9 @@ public class jongmok24 extends Fragment{
             }
         });
 
-        iv428.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="청주 장애인 스포츠센터";
-                activity.stdadd="충북 청주시 청원구 사천로 18번길 81";
-                activity.stdwatch="250석";
-                activity.stdcall="043-201-2381";
-                activity.stdcar="-대";
-                activity.stdjongmok="검도(전종별)";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203115418704TcnTJX.jpg";
-                activity.sogeaLastIndex=5;
-                activity.sogeaNum=45;
-                activity.jongmokName="검도";
-                activity.stdnum=1;
-                activity.jongmok1="고등부\n" +
-                        "22(일)\n" +
-                        "\n" +
-                        "대학부\n" +
-                        "23(월)\n" +
-                        "\n" +
-                        "일반부\n" +
-                        "24(화)\n" +
-                        "\n" +
-                        "여자부(시범)\n" +
-                        "21(토)\n";
-                activity.onFragmentChanged(53);
-            }
-        });
 
-        iv429.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="청주 스쿼시경기장";
-                activity.stdadd="충북 청주시 상당구 월오동 179-3";
-                activity.stdwatch="255석";
-                activity.stdcall="043-201-2153";
-                activity.stdcar="255대";
-                activity.stdjongmok="스쿼시(전종별)";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/201705181032487199CwA0h.jpg";
-                activity.sogeaLastIndex=6;
-                activity.sogeaNum=23;
-                activity.jongmokName="스쿼시";
-                activity.stdnum=1;
-                activity.jongmok1="개인\n" +
-                        "21(토), 22(일)\n" +
-                        "\n" +
-                        "단체\n" +
-                        "23(월), 24(화)\n" +
-                        "\n" +
-                        "해외동포\n" +
-                        "22(일), 23(월)";
-                activity.onFragmentChanged(53);
-            }
-        });
+
+
 
         iv930.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1349,31 +1181,7 @@ public class jongmok24 extends Fragment{
 
 
 
-        iv1430.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="증평 종합 스포츠센터";
-                activity.stdadd="충북 증평군 증평읍 인삼로 23";
-                activity.stdwatch="1,370석";
-                activity.stdcall="043-835-3663";
-                activity.stdcar="100대";
-                activity.stdjongmok="씨름";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203112203927NGzriq.jpg";
-                activity.sogeaLastIndex=8;
-                activity.sogeaNum=21;
-                activity.jongmokName="씨름";
-                activity.stdnum=1;
-                activity.jongmok1="고등부\n" +
-                        "20(금)(계체), 21(토), 22(일)\n" +
-                        "\n" +
-                        "대학부\n" +
-                        "21(토)(계체), 22(일), 23(월)\n" +
-                        "\n" +
-                        "일반부\n" +
-                        "22(일)(계체), 23(월), 24(화)";
-                activity.onFragmentChanged(53);
-            }
-        });
+
 
         iv1530.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1398,24 +1206,7 @@ public class jongmok24 extends Fragment{
             }
         });
 
-        iv1630.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                activity.stdname="옥천 체육센터";
-                activity.stdadd="충북 옥천군 옥천읍 관성로 53";
-                activity.stdwatch="1,750석";
-                activity.stdcall="043-730-4865";
-                activity.stdcar="150대";
-                activity.stdjongmok="우슈(전종별)";
-                activity.baseImageURL="http://2017sports.chungbuk.go.kr/DATA/stadium/20170203110118757CQIZc8.jpg";
-                activity.sogeaLastIndex=6;
-                activity.sogeaNum=17;
-                activity.jongmokName="우슈";
-                activity.stdnum=1;
-                activity.jongmok1="21(토)(계체), 22(일), 23(월), 24(화)";
-                activity.onFragmentChanged(53);
-            }
-        });
+
 
         iv1730.setOnClickListener(new View.OnClickListener() {
             @Override
