@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_jongmok_main_layout) {
             manager.popBackStackImmediate();
-            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
+            manager.beginTransaction().replace(R.id.content_main,new jongmokSelect()).addToBackStack(null).commit();
 
         } else if (id == R.id.nav_main_layout) {
             manager.popBackStackImmediate();
@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction().replace(R.id.content_main,new cheerupMain()).addToBackStack(null).commit();
         }else if(index == 5){
             navigationView.getMenu().getItem(3).setChecked(true);
-            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
+            manager.beginTransaction().replace(R.id.content_main,new jongmokSelect()).addToBackStack(null).commit();
         }else if(index == 9){
             manager.beginTransaction().replace(R.id.content_main,new gaeyo()).addToBackStack(null).commit();
         }else if(index == 3){
@@ -205,6 +205,19 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction().replace(R.id.content_main,new introduce()).addToBackStack(null).commit();
         }else if(index == 53){
             manager.beginTransaction().replace(R.id.content_main,new jongmok()).addToBackStack(null).commit();
+        }
+        else if(index == 18)
+        {
+            navigationView.getMenu().getItem(3).setChecked(true);
+            manager.beginTransaction().replace(R.id.content_main,new jongmokMain()).addToBackStack(null).commit();
+        }
+        else if(index == 17)
+        {
+            manager.beginTransaction().replace(R.id.content_main,new jongmokDaySelect()).addToBackStack(null).commit();
+        }
+        else if(index == 1019)
+        {
+            manager.beginTransaction().replace(R.id.content_main,new jongmok19()).addToBackStack(null).commit();
         }
 
     }
